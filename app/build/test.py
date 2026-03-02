@@ -1,31 +1,40 @@
 import torch
 import torch.nn as nn
 from torchvision import datasets, transforms, models
+from torchvision.models import resnet18, ResNet18_Weights
 from torch.utils.data import DataLoader
 from sklearn.metrics import classification_report, confusion_matrix
 import numpy as np
+from pathlib import Path
+from app.utils.model_version import current_model_name
 
 device = torch.device("cuda" if torch.cuda.is_available() else "cpu")
 
-# Load checkpoint
-checkpoint = torch.load("leaf_detection_model_v1.pth", map_location=device)
+BASE_DIR = Path(__file__).resolve().parent
 
-# Recreate model
-model = models.resnet18(pretrained=False)
+MODEL_PATH = BASE_DIR.parent / "models" / f"{current_model_name()}"
+
+TEST_DATASET_PATH = BASE_DIR / "datasets" /"test"
+# Load checkpoint
+
+checkpoint = torch.load(MODEL_PATH, map_location=device)
+
+model = models.resnet18(weights=ResNet18_Weights.DEFAULT)
 model.fc = nn.Linear(model.fc.in_features, checkpoint["num_classes"])
 model.load_state_dict(checkpoint["model_state_dict"])
 model.to(device)
 model.eval()
 
-# Transform (MUST match training)
 transform = transforms.Compose([
-    transforms.Resize((128, 128)),
+    transforms.Resize(256),
+    transforms.CenterCrop(224),
     transforms.ToTensor(),
     transforms.Normalize((0.5, 0.5, 0.5), (0.5, 0.5, 0.5))
 ])
 
+
 # Load test dataset
-test_data = datasets.ImageFolder(root="./data/test", transform=transform)
+test_data = datasets.ImageFolder(root=TEST_DATASET_PATH, transform=transform)
 test_loader = DataLoader(test_data, batch_size=32, shuffle=False)
 
 all_preds = []
@@ -36,7 +45,6 @@ with torch.no_grad():
         images = images.to(device)
         outputs = model(images)
         _, preds = torch.max(outputs, 1)
-
         all_preds.extend(preds.cpu().numpy())
         all_labels.extend(labels.numpy())
 

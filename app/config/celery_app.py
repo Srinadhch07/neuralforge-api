@@ -10,7 +10,7 @@ celery = Celery(
 )
 
 celery.conf.imports = (
-    "app.tasks.pdf_tasks",
+    "app.tasks.dl_tasks",
 )
 celery.conf.update(
     # broker_use_ssl={

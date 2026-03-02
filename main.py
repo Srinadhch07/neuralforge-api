@@ -7,13 +7,35 @@ import asyncio
 
 from app.utils.response_handler import ( global_exception_handler, http_exception_handler, validation_exception_handler)
 from app.config.logging import init_logging_system
+from app.build.load_model_v1 import model
 
 init_logging_system()
 
 from app.routers.v1.routes import router as ml_router
-app = FastAPI( title="Machine Learning model", version="1.0.0", docs_url="/docs", redoc_url="/redoc", Debug=False)
+from app.routers.v1.train_routes import router as train_router
+app = FastAPI(
+    title="Plant Disease Detection API",
+    description="""
+    Production-ready ML API for:
+    -  Plant species identification
+    -  Leaf disease detection
+    -  Model training & evaluation
+    """,
+    version="1.0.0",
+    contact={
+        "name": "SRINADH CHINTAKINDI",
+        "email": "srinadhch03@gmail.com",
+    },
+    license_info={
+        "name": "MIT License",
+    },
+    docs_url="/docs",
+    redoc_url="/redoc",
+    debug=False
+)
 
 app.include_router( ml_router, prefix="/api")
+app.include_router(train_router, prefix="/api")
 
 app.add_middleware( CORSMiddleware, allow_origins=["*"],  allow_credentials=True, allow_methods=["*"], allow_headers=["*"],)
 app.add_exception_handler(Exception, global_exception_handler)

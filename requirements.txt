@@ -10,3 +10,5 @@ torch
 torchvision
 pillow
 scikit-learn
+celery
+redis

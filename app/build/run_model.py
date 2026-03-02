@@ -1,9 +1,9 @@
 import  torch
 from torchvision import models, transforms
 from PIL import Image
-from pathlib import Path
-from load_model import model, checkpoint,device
 import logging
+
+logger = logging.getLogger(__name__)
 
 # Transform
 transform = transforms.Compose([
@@ -12,8 +12,21 @@ transform = transforms.Compose([
     transforms.Normalize((0.5, 0.5, 0.5), (0.5, 0.5, 0.5))
 ])
 
-async def leaf_detection_model(image_path: str):
+model = None
+checkpoint = None
+device = None
+
+def load_model():
+    global model, checkpoint, device
+    if model is None:
+        from .load_model_v1 import model as m, checkpoint as c, device as d
+        model = m
+        checkpoint = c
+        device = d
+
+def leaf_detection_model(image_path: str):
     try:
+        load_model()
         img = Image.open(image_path).convert("RGB")
         input_tensor = transform(img).unsqueeze(0).to(device)
         with torch.no_grad():
@@ -24,9 +37,9 @@ async def leaf_detection_model(image_path: str):
         confidence = confidence.item()
         # Get class mapping safely
         idx_to_class = {v: k for k, v in checkpoint["class_to_idx"].items()}
-        print("Predicted:", idx_to_class[predicted_class])
-        print(f"Confidence: {confidence*100:.2f}%")
-        return idx_to_class, confidence
+        logger.debug("Predicted:", idx_to_class[predicted_class])
+        logger.debug(f"Confidence: {confidence*100:.2f}%")
+        return idx_to_class[predicted_class], confidence
     except Exception as e:
         logging.error(f"Error details:{e}")
         return "None", 0.0

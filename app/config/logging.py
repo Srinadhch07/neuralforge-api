@@ -2,6 +2,9 @@ import logging
 import os
 from logging.handlers import TimedRotatingFileHandler
 from pathlib import Path
+from dotenv import load_dotenv
+
+load_dotenv()
 
 LOG_LEVEL = os.getenv("LOG_LEVEL", "INFO").upper()
 
@@ -19,7 +22,7 @@ def init_logging_system():
     
     # Get only warnings
     logging.getLogger("python_multipart").setLevel(logging.WARNING)
-    logging.getLogger("celery").setLevel(logging.WARNING)
+    # logging.getLogger("celery").setLevel(logging.WARNING)
     logging.getLogger("pymongo").setLevel(logging.WARNING)
     logging.getLogger("urllib3").setLevel(logging.WARNING)
 
