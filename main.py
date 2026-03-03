@@ -8,6 +8,8 @@ import asyncio
 from app.utils.response_handler import ( global_exception_handler, http_exception_handler, validation_exception_handler)
 from app.config.logging import init_logging_system
 from app.build.load_model_v1 import model
+from app.utils.model_download import download_model
+from app.utils.model_version import is_model_exists
 
 init_logging_system()
 
@@ -46,7 +48,8 @@ app.mount("/static", StaticFiles(directory="static"), name="static")
 
 @app.on_event("startup")
 async def startup_event():
-    pass
+    if not is_model_exists():
+        download_model()
 
 @app.get("/favicon.ico", include_in_schema=False)
 async def favicon():

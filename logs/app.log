@@ -1,308 +1,60 @@
-2026-03-02 10:04:40,458 - DEBUG - app.build.load_model - Model path: E:\AIML\PlantDoctor\app\models\leaf_detection_model_v1.pth
-2026-03-02 10:04:48,780 - WARNING - fastapi - email-validator not installed, email fields will be treated as str.
-To install, run: pip install email-validator
-2026-03-02 10:06:04,437 - DEBUG - app.build.load_model - Model path: E:\AIML\PlantDoctor\app\models\leaf_detection_model_v1.pth
-2026-03-02 11:44:07,971 - DEBUG - app.build.load_model_v1 - Model path: E:\AIML\PlantDoctor\app\models\leaf_detection_model_v1.pth
-2026-03-02 11:44:08,451 - INFO - app.build.load_model_v1 - Model loaded successfully.
-2026-03-02 12:03:27,724 - DEBUG - app.build.load_model_v1 - Model path: E:\AIML\PlantDoctor\app\models\leaf_detection_model_v1.pth
-2026-03-02 12:03:28,026 - INFO - app.build.load_model_v1 - Model loaded successfully.
-2026-03-02 14:21:25,562 - DEBUG - app.build.load_model_v1 - Model path: E:\AIML\PlantDoctor\app\models\leaf_detection_model_v1.pth
-2026-03-02 14:21:26,176 - INFO - app.build.load_model_v1 - Model loaded successfully.
-2026-03-02 14:21:26,675 - DEBUG - app.build.train.build_model - {0: 'apple', 1: 'grapevine', 2: 'mango', 3: 'paddy', 4: 'soyabean'}
-2026-03-02 14:21:26,675 - DEBUG - app.build.train.build_model - classes: ['apple', 'grapevine', 'mango', 'paddy', 'soyabean']
-2026-03-02 14:21:26,675 - DEBUG - app.build.train.build_model - number of training images: 1510
-2026-03-02 14:21:26,675 - DEBUG - app.build.train.build_model - number of testing images: 794
-2026-03-02 14:21:27,132 - DEBUG - app.build.train.build_model - Linear(in_features=512, out_features=5, bias=True)
-2026-03-02 14:21:27,132 - DEBUG - app.build.train.train - Model built
-2026-03-02 14:23:25,699 - WARNING - fastapi - email-validator not installed, email fields will be treated as str.
-To install, run: pip install email-validator
-2026-03-02 14:25:38,144 - DEBUG - app.build.load_model_v1 - Model path: E:\AIML\PlantDoctor\app\models\leaf_detection_model_v1.pth
-2026-03-02 14:25:38,495 - INFO - app.build.load_model_v1 - Model loaded successfully.
-2026-03-02 14:25:38,750 - DEBUG - app.build.train.build_model - {0: 'apple', 1: 'grapevine', 2: 'mango', 3: 'paddy', 4: 'soyabean'}
-2026-03-02 14:25:38,750 - DEBUG - app.build.train.build_model - classes: ['apple', 'grapevine', 'mango', 'paddy', 'soyabean']
-2026-03-02 14:25:38,750 - DEBUG - app.build.train.build_model - number of training images: 1510
-2026-03-02 14:25:38,750 - DEBUG - app.build.train.build_model - number of testing images: 794
-2026-03-02 14:25:39,162 - DEBUG - app.build.train.build_model - Linear(in_features=512, out_features=5, bias=True)
-2026-03-02 14:25:39,162 - DEBUG - app.build.train.train - Model built
-2026-03-02 14:26:36,097 - DEBUG - app.build.load_model_v1 - Model path: E:\AIML\PlantDoctor\app\models\leaf_detection_model_v1.pth
-2026-03-02 14:26:36,449 - INFO - app.build.load_model_v1 - Model loaded successfully.
-2026-03-02 14:26:36,700 - DEBUG - app.build.train.build_model - {0: 'apple', 1: 'grapevine', 2: 'mango', 3: 'paddy', 4: 'soyabean'}
-2026-03-02 14:26:36,700 - DEBUG - app.build.train.build_model - classes: ['apple', 'grapevine', 'mango', 'paddy', 'soyabean']
-2026-03-02 14:26:36,700 - DEBUG - app.build.train.build_model - number of training images: 1510
-2026-03-02 14:26:36,700 - DEBUG - app.build.train.build_model - number of testing images: 794
-2026-03-02 14:26:37,076 - DEBUG - app.build.train.build_model - Linear(in_features=512, out_features=5, bias=True)
-2026-03-02 14:26:37,076 - DEBUG - app.build.train.train - Model built
-2026-03-02 14:28:53,835 - DEBUG - app.build.load_model_v1 - Model path: E:\AIML\PlantDoctor\app\models\leaf_detection_model_v1.pth
-2026-03-02 14:28:54,182 - INFO - app.build.load_model_v1 - Model loaded successfully.
-2026-03-02 14:28:54,424 - DEBUG - app.build.train.build_model - {0: 'apple', 1: 'grapevine', 2: 'mango', 3: 'paddy', 4: 'soyabean'}
-2026-03-02 14:28:54,426 - DEBUG - app.build.train.build_model - classes: ['apple', 'grapevine', 'mango', 'paddy', 'soyabean']
-2026-03-02 14:28:54,426 - DEBUG - app.build.train.build_model - number of training images: 1510
-2026-03-02 14:28:54,426 - DEBUG - app.build.train.build_model - number of testing images: 794
-2026-03-02 14:28:54,764 - DEBUG - app.build.train.build_model - Linear(in_features=512, out_features=5, bias=True)
-2026-03-02 14:28:54,767 - DEBUG - app.build.train.train - Model built
-2026-03-02 14:34:52,291 - DEBUG - app.build.load_model_v1 - Model path: E:\AIML\PlantDoctor\app\models\leaf_detection_model_v1.pth
-2026-03-02 14:34:52,684 - INFO - app.build.load_model_v1 - Model loaded successfully.
-2026-03-02 14:34:52,925 - DEBUG - app.build.train.build_model - {0: 'apple', 1: 'grapevine', 2: 'mango', 3: 'paddy', 4: 'soyabean'}
-2026-03-02 14:34:52,925 - DEBUG - app.build.train.build_model - classes: ['apple', 'grapevine', 'mango', 'paddy', 'soyabean']
-2026-03-02 14:34:52,925 - DEBUG - app.build.train.build_model - number of training images: 1510
-2026-03-02 14:34:52,925 - DEBUG - app.build.train.build_model - number of testing images: 794
-2026-03-02 14:34:53,285 - DEBUG - app.build.train.build_model - Linear(in_features=512, out_features=5, bias=True)
-2026-03-02 14:34:53,286 - DEBUG - app.build.train.train - Model built
-2026-03-02 14:57:14,757 - DEBUG - app.build.load_model_v1 - Model path: E:\AIML\PlantDoctor\app\models\leaf_detection_model_v1.pth
-2026-03-02 14:57:15,093 - INFO - app.build.load_model_v1 - Model loaded successfully.
-2026-03-02 14:57:15,347 - DEBUG - app.build.train.build_model - {0: 'apple', 1: 'grapevine', 2: 'mango', 3: 'paddy', 4: 'soyabean'}
-2026-03-02 14:57:15,347 - DEBUG - app.build.train.build_model - classes: ['apple', 'grapevine', 'mango', 'paddy', 'soyabean']
-2026-03-02 14:57:15,347 - DEBUG - app.build.train.build_model - number of training images: 1510
-2026-03-02 14:57:15,347 - DEBUG - app.build.train.build_model - number of testing images: 794
-2026-03-02 14:57:15,776 - DEBUG - app.build.train.build_model - Linear(in_features=512, out_features=5, bias=True)
-2026-03-02 14:57:15,776 - DEBUG - app.build.train.train - Model built
-2026-03-02 15:06:21,154 - DEBUG - app.build.load_model_v1 - Model path: E:\AIML\PlantDoctor\app\models\leaf_detection_model_v1.pth
-2026-03-02 15:06:21,497 - INFO - app.build.load_model_v1 - Model loaded successfully.
-2026-03-02 15:06:21,724 - DEBUG - app.build.train.build_model - {0: 'apple', 1: 'grapevine', 2: 'mango', 3: 'paddy', 4: 'soyabean'}
-2026-03-02 15:06:21,724 - DEBUG - app.build.train.build_model - classes: ['apple', 'grapevine', 'mango', 'paddy', 'soyabean']
-2026-03-02 15:06:21,724 - DEBUG - app.build.train.build_model - number of training images: 1510
-2026-03-02 15:06:21,724 - DEBUG - app.build.train.build_model - number of testing images: 794
-2026-03-02 15:06:22,055 - DEBUG - app.build.train.build_model - Linear(in_features=512, out_features=5, bias=True)
-2026-03-02 15:06:22,057 - DEBUG - app.build.train.train - Model built
-2026-03-02 15:06:53,330 - DEBUG - celery.utils.functional - 
+2026-03-03 10:10:13,692 - DEBUG - app.utils.model_version - leaf_detection_model_v3.pth
+2026-03-03 10:10:13,692 - DEBUG - app.build.load_model_v1 - Model path: E:\AIML\PlantDoctor\app\models\leaf_detection_model_v3.pth
+2026-03-03 10:10:14,363 - INFO - app.build.load_model_v1 - Model loaded successfully.
+2026-03-03 10:10:14,648 - DEBUG - app.build.train.build_model - {0: 'turmeric_healthy', 1: 'turmeric_leaf_spot'}
+2026-03-03 10:10:14,650 - DEBUG - app.build.train.build_model - classes: ['turmeric_healthy', 'turmeric_leaf_spot']
+2026-03-03 10:10:14,650 - DEBUG - app.build.train.build_model - number of training images: 1260
+2026-03-03 10:10:14,650 - DEBUG - app.build.train.build_model - number of testing images: 480
+2026-03-03 10:10:14,984 - DEBUG - app.build.train.build_model - Linear(in_features=512, out_features=2, bias=True)
+2026-03-03 10:10:14,989 - DEBUG - root - Deep learning model built sucessfully.
+2026-03-03 10:10:14,989 - INFO - root - Initialised traning epochs
+2026-03-03 10:11:19,912 - DEBUG - app.utils.model_version - leaf_detection_model_v3.pth
+2026-03-03 10:11:19,913 - DEBUG - app.build.load_model_v1 - Model path: E:\AIML\PlantDoctor\app\models\leaf_detection_model_v3.pth
+2026-03-03 10:11:20,318 - INFO - app.build.load_model_v1 - Model loaded successfully.
+2026-03-03 10:11:20,596 - DEBUG - app.build.train.build_model - {0: 'turmeric_healthy', 1: 'turmeric_leaf_spot'}
+2026-03-03 10:11:20,598 - DEBUG - app.build.train.build_model - classes: ['turmeric_healthy', 'turmeric_leaf_spot']
+2026-03-03 10:11:20,598 - DEBUG - app.build.train.build_model - number of training images: 1260
+2026-03-03 10:11:20,599 - DEBUG - app.build.train.build_model - number of testing images: 480
+2026-03-03 10:11:20,971 - DEBUG - app.build.train.build_model - Linear(in_features=512, out_features=2, bias=True)
+2026-03-03 10:11:20,971 - DEBUG - root - Deep learning model built sucessfully.
+2026-03-03 10:11:20,976 - INFO - root - Initialised traning epochs
+2026-03-03 10:11:48,745 - DEBUG - app.utils.model_version - leaf_detection_model_v3.pth
+2026-03-03 10:11:48,745 - DEBUG - app.build.load_model_v1 - Model path: E:\AIML\PlantDoctor\app\models\leaf_detection_model_v3.pth
+2026-03-03 10:11:49,152 - INFO - app.build.load_model_v1 - Model loaded successfully.
+2026-03-03 10:12:28,501 - DEBUG - celery.utils.functional - 
 def train_model_task(self, num_epochs):
     return 1
 
-2026-03-02 16:21:07,670 - DEBUG - app.build.load_model_v1 - Model path: E:\AIML\PlantDoctor\app\models\leaf_detection_model_v2.pth
-2026-03-02 16:21:07,883 - INFO - app.build.load_model_v1 - Model loaded successfully.
-2026-03-02 16:21:08,053 - DEBUG - app.build.train.build_model - {0: 'apple', 1: 'grapevine', 2: 'mango', 3: 'paddy', 4: 'soyabean'}
-2026-03-02 16:21:08,053 - DEBUG - app.build.train.build_model - classes: ['apple', 'grapevine', 'mango', 'paddy', 'soyabean']
-2026-03-02 16:21:08,053 - DEBUG - app.build.train.build_model - number of training images: 1510
-2026-03-02 16:21:08,053 - DEBUG - app.build.train.build_model - number of testing images: 794
-2026-03-02 16:21:08,292 - DEBUG - app.build.train.build_model - Linear(in_features=512, out_features=5, bias=True)
-2026-03-02 16:21:08,293 - DEBUG - root - Model built
-2026-03-02 16:21:08,294 - INFO - root - Base dir; E:\AIML\PlantDoctor\app, MODEL_DIR: E:\AIML\PlantDoctor\app\models\leaf_detection_model_v3.pth
-2026-03-02 16:21:08,295 - DEBUG - root - Started epochs
-2026-03-02 16:21:08,295 - DEBUG - root - Epochs count: 1
-2026-03-02 16:21:20,913 - DEBUG - PIL.TiffImagePlugin - tag: Software (305) - type: string (2) Tag Location: 22 - Data Location: 38 - value: b'Google\x00'
-2026-03-02 16:21:20,914 - DEBUG - PIL.TiffImagePlugin - tag: ExifIFD (34665) - type: long (4) - value: b'.\x00\x00\x00'
-2026-03-02 16:23:16,821 - DEBUG - app.build.load_model_v1 - Model path: E:\AIML\PlantDoctor\app\models\leaf_detection_model_v2.pth
-2026-03-02 16:23:17,149 - INFO - app.build.load_model_v1 - Model loaded successfully.
-2026-03-02 16:23:17,359 - DEBUG - app.build.train.build_model - {0: 'apple', 1: 'grapevine', 2: 'mango', 3: 'paddy', 4: 'soyabean'}
-2026-03-02 16:23:17,359 - DEBUG - app.build.train.build_model - classes: ['apple', 'grapevine', 'mango', 'paddy', 'soyabean']
-2026-03-02 16:23:17,359 - DEBUG - app.build.train.build_model - number of training images: 1510
-2026-03-02 16:23:17,359 - DEBUG - app.build.train.build_model - number of testing images: 794
-2026-03-02 16:23:17,666 - DEBUG - app.build.train.build_model - Linear(in_features=512, out_features=5, bias=True)
-2026-03-02 16:23:17,670 - DEBUG - root - Model built
-2026-03-02 16:23:17,671 - INFO - root - Base dir; E:\AIML\PlantDoctor\app, MODEL_DIR: E:\AIML\PlantDoctor\app\models\leaf_detection_model_v3.pth
-2026-03-02 16:23:17,673 - DEBUG - root - Started epochs
-2026-03-02 16:23:17,673 - DEBUG - root - Epochs count: 1
-2026-03-02 16:23:48,331 - DEBUG - PIL.TiffImagePlugin - tag: ImageWidth (256) - type: short (3) - value: b' \n'
-2026-03-02 16:23:48,335 - DEBUG - PIL.TiffImagePlugin - tag: ImageLength (257) - type: short (3) - value: b'\x98\x07'
-2026-03-02 16:23:48,335 - DEBUG - PIL.TiffImagePlugin - tag: BitsPerSample (258) - type: short (3) Tag Location: 46 - Data Location: 206 - value: b'\x08\x00\x08\x00\x08\x00'
-2026-03-02 16:23:48,335 - DEBUG - PIL.TiffImagePlugin - tag: PhotometricInterpretation (262) - type: short (3) - value: b'\x02\x00'
-2026-03-02 16:23:48,335 - DEBUG - PIL.TiffImagePlugin - tag: Make (271) - type: string (2) Tag Location: 70 - Data Location: 212 - value: b'SONY\x00'
-2026-03-02 16:23:48,337 - DEBUG - PIL.TiffImagePlugin - tag: Model (272) - type: string (2) Tag Location: 82 - Data Location: 217 - value: b'DSC-W120\x00'
-2026-03-02 16:23:48,337 - DEBUG - PIL.TiffImagePlugin - tag: Orientation (274) - type: short (3) - value: b'\x01\x00'
-2026-03-02 16:23:48,337 - DEBUG - PIL.TiffImagePlugin - tag: SamplesPerPixel (277) - type: short (3) - value: b'\x03\x00'
-2026-03-02 16:23:48,337 - DEBUG - PIL.TiffImagePlugin - tag: XResolution (282) - type: rational (5) Tag Location: 118 - Data Location: 226 - value: b"\x80\xfc\n\x00\x10'\x00\x00"
-2026-03-02 16:23:48,337 - DEBUG - PIL.TiffImagePlugin - tag: YResolution (283) - type: rational (5) Tag Location: 130 - Data Location: 234 - value: b"\x80\xfc\n\x00\x10'\x00\x00"
-2026-03-02 16:23:48,337 - DEBUG - PIL.TiffImagePlugin - tag: ResolutionUnit (296) - type: short (3) - value: b'\x02\x00'
-2026-03-02 16:23:48,337 - DEBUG - PIL.TiffImagePlugin - tag: Software (305) - type: string (2) Tag Location: 154 - Data Location: 242 - value: <table: 34 bytes>
-2026-03-02 16:23:48,337 - DEBUG - PIL.TiffImagePlugin - tag: DateTime (306) - type: string (2) Tag Location: 166 - Data Location: 276 - value: b'2017:12:20 14:05:40\x00'
-2026-03-02 16:23:48,337 - DEBUG - PIL.TiffImagePlugin - tag: YCbCrPositioning (531) - type: short (3) - value: b'\x02\x00'
-2026-03-02 16:23:48,339 - DEBUG - PIL.TiffImagePlugin - tag: unknown (50341) - type: undefined (7) Tag Location: 190 - Data Location: 296 - value: b'PrintIM\x000300\x00\x00\x02\x00\x02\x00\x01\x00\x00\x00\x01\x01\x01\x00\x00\x00'
-2026-03-02 16:23:48,339 - DEBUG - PIL.TiffImagePlugin - tag: ExifIFD (34665) - type: long (4) - value: b'D\x01\x00\x00'
-2026-03-02 16:23:55,164 - DEBUG - PIL.TiffImagePlugin - tag: Make (271) - type: string (2) Tag Location: 22 - Data Location: 146 - value: b'Canon\x00'
-2026-03-02 16:23:55,165 - DEBUG - PIL.TiffImagePlugin - tag: Model (272) - type: string (2) Tag Location: 34 - Data Location: 152 - value: b'Canon EOS REBEL T2i\x00'
-2026-03-02 16:23:55,165 - DEBUG - PIL.TiffImagePlugin - tag: Orientation (274) - type: short (3) - value: b'\x01\x00'
-2026-03-02 16:23:55,166 - DEBUG - PIL.TiffImagePlugin - tag: XResolution (282) - type: rational (5) Tag Location: 58 - Data Location: 184 - value: b'H\x00\x00\x00\x01\x00\x00\x00'
-2026-03-02 16:23:55,166 - DEBUG - PIL.TiffImagePlugin - tag: YResolution (283) - type: rational (5) Tag Location: 70 - Data Location: 192 - value: b'H\x00\x00\x00\x01\x00\x00\x00'
-2026-03-02 16:23:55,166 - DEBUG - PIL.TiffImagePlugin - tag: ResolutionUnit (296) - type: short (3) - value: b'\x02\x00'
-2026-03-02 16:23:55,166 - DEBUG - PIL.TiffImagePlugin - tag: DateTime (306) - type: string (2) Tag Location: 94 - Data Location: 200 - value: b'2011:07:06 08:05:38\x00'
-2026-03-02 16:23:55,167 - DEBUG - PIL.TiffImagePlugin - tag: Artist (315) - type: string (2) - value: b'\x00'
-2026-03-02 16:23:55,167 - DEBUG - PIL.TiffImagePlugin - tag: YCbCrPositioning (531) - type: short (3) - value: b'\x02\x00'
-2026-03-02 16:23:55,167 - DEBUG - PIL.TiffImagePlugin - tag: Copyright (33432) - type: string (2) - value: b'\x00'
-2026-03-02 16:23:55,167 - DEBUG - PIL.TiffImagePlugin - tag: ExifIFD (34665) - type: long (4) - value: b'\\\x01\x00\x00'
-2026-03-02 16:24:08,114 - DEBUG - PIL.TiffImagePlugin - tag: Make (271) - type: string (2) Tag Location: 22 - Data Location: 146 - value: b'Canon\x00'
-2026-03-02 16:24:08,114 - DEBUG - PIL.TiffImagePlugin - tag: Model (272) - type: string (2) Tag Location: 34 - Data Location: 152 - value: b'Canon EOS REBEL T2i\x00'
-2026-03-02 16:24:08,114 - DEBUG - PIL.TiffImagePlugin - tag: Orientation (274) - type: short (3) - value: b'\x01\x00'
-2026-03-02 16:24:08,116 - DEBUG - PIL.TiffImagePlugin - tag: XResolution (282) - type: rational (5) Tag Location: 58 - Data Location: 184 - value: b'H\x00\x00\x00\x01\x00\x00\x00'
-2026-03-02 16:24:08,116 - DEBUG - PIL.TiffImagePlugin - tag: YResolution (283) - type: rational (5) Tag Location: 70 - Data Location: 192 - value: b'H\x00\x00\x00\x01\x00\x00\x00'
-2026-03-02 16:24:08,116 - DEBUG - PIL.TiffImagePlugin - tag: ResolutionUnit (296) - type: short (3) - value: b'\x02\x00'
-2026-03-02 16:24:08,116 - DEBUG - PIL.TiffImagePlugin - tag: DateTime (306) - type: string (2) Tag Location: 94 - Data Location: 200 - value: b'2011:07:06 08:13:17\x00'
-2026-03-02 16:24:08,116 - DEBUG - PIL.TiffImagePlugin - tag: Artist (315) - type: string (2) - value: b'\x00'
-2026-03-02 16:24:08,116 - DEBUG - PIL.TiffImagePlugin - tag: YCbCrPositioning (531) - type: short (3) - value: b'\x02\x00'
-2026-03-02 16:24:08,118 - DEBUG - PIL.TiffImagePlugin - tag: Copyright (33432) - type: string (2) - value: b'\x00'
-2026-03-02 16:24:08,118 - DEBUG - PIL.TiffImagePlugin - tag: ExifIFD (34665) - type: long (4) - value: b'\\\x01\x00\x00'
-2026-03-02 16:24:24,873 - DEBUG - PIL.TiffImagePlugin - tag: ImageWidth (256) - type: short (3) - value: b'\x05\x00'
-2026-03-02 16:24:24,874 - DEBUG - PIL.TiffImagePlugin - tag: ImageLength (257) - type: short (3) - value: b'\x03\xc0'
-2026-03-02 16:24:24,874 - DEBUG - PIL.TiffImagePlugin - tag: BitsPerSample (258) - type: short (3) Tag Location: 46 - Data Location: 158 - value: b'\x00\x08\x00\x08\x00\x08'
-2026-03-02 16:24:24,875 - DEBUG - PIL.TiffImagePlugin - tag: PhotometricInterpretation (262) - type: short (3) - value: b'\x00\x02'
-2026-03-02 16:24:24,875 - DEBUG - PIL.TiffImagePlugin - tag: Orientation (274) - type: short (3) - value: b'\x00\x01'
-2026-03-02 16:24:24,876 - DEBUG - PIL.TiffImagePlugin - tag: SamplesPerPixel (277) - type: short (3) - value: b'\x00\x03'
-2026-03-02 16:24:24,876 - DEBUG - PIL.TiffImagePlugin - tag: XResolution (282) - type: rational (5) Tag Location: 94 - Data Location: 164 - value: b"\x00\n\xfc\x80\x00\x00'\x10"
-2026-03-02 16:24:24,876 - DEBUG - PIL.TiffImagePlugin - tag: YResolution (283) - type: rational (5) Tag Location: 106 - Data Location: 172 - value: b"\x00\n\xfc\x80\x00\x00'\x10"
-2026-03-02 16:24:24,877 - DEBUG - PIL.TiffImagePlugin - tag: ResolutionUnit (296) - type: short (3) - value: b'\x00\x02'
-2026-03-02 16:24:24,878 - DEBUG - PIL.TiffImagePlugin - tag: Software (305) - type: string (2) Tag Location: 130 - Data Location: 180 - value: b'Adobe Photoshop CS5.1 Macintosh\x00'
-2026-03-02 16:24:24,878 - DEBUG - PIL.TiffImagePlugin - tag: DateTime (306) - type: string (2) Tag Location: 142 - Data Location: 212 - value: b'2012:06:27 14:32:02\x00'
-2026-03-02 16:24:24,878 - DEBUG - PIL.TiffImagePlugin - tag: ExifIFD (34665) - type: long (4) - value: b'\x00\x00\x00\xe8'
-2026-03-02 16:28:39,125 - DEBUG - app.build.load_model_v1 - Model path: E:\AIML\PlantDoctor\app\models\leaf_detection_model_v2.pth
-2026-03-02 16:28:39,335 - INFO - app.build.load_model_v1 - Model loaded successfully.
-2026-03-02 16:28:39,494 - DEBUG - app.build.train.build_model - {0: 'apple', 1: 'grapevine', 2: 'mango', 3: 'paddy', 4: 'soyabean'}
-2026-03-02 16:28:39,494 - DEBUG - app.build.train.build_model - classes: ['apple', 'grapevine', 'mango', 'paddy', 'soyabean']
-2026-03-02 16:28:39,494 - DEBUG - app.build.train.build_model - number of training images: 1510
-2026-03-02 16:28:39,494 - DEBUG - app.build.train.build_model - number of testing images: 794
-2026-03-02 16:28:39,750 - DEBUG - app.build.train.build_model - Linear(in_features=512, out_features=5, bias=True)
-2026-03-02 16:28:39,752 - DEBUG - root - Model built
-2026-03-02 16:28:39,752 - INFO - root - Base dir; E:\AIML\PlantDoctor\app, MODEL_DIR: E:\AIML\PlantDoctor\app\models\leaf_detection_model_v3.pth
-2026-03-02 16:28:39,753 - DEBUG - root - Started epochs
-2026-03-02 16:28:39,753 - DEBUG - root - Epochs count: 1
-2026-03-02 16:28:45,638 - DEBUG - PIL.TiffImagePlugin - tag: ImageDescription (270) - type: string (2) Tag Location: 22 - Data Location: 122 - value: b'                               \x00'
-2026-03-02 16:28:45,638 - DEBUG - PIL.TiffImagePlugin - tag: Make (271) - type: string (2) Tag Location: 34 - Data Location: 154 - value: b'SONY\x00'
-2026-03-02 16:28:45,638 - DEBUG - PIL.TiffImagePlugin - tag: Model (272) - type: string (2) Tag Location: 46 - Data Location: 160 - value: b'CYBERSHOT\x00'
-2026-03-02 16:28:45,638 - DEBUG - PIL.TiffImagePlugin - tag: Orientation (274) - type: short (3) - value: b'\x00\x01'
-2026-03-02 16:28:45,638 - DEBUG - PIL.TiffImagePlugin - tag: XResolution (282) - type: rational (5) Tag Location: 70 - Data Location: 170 - value: b'\x00\x00\x00H\x00\x00\x00\x01'
-2026-03-02 16:28:45,638 - DEBUG - PIL.TiffImagePlugin - tag: YResolution (283) - type: rational (5) Tag Location: 82 - Data Location: 178 - value: b'\x00\x00\x00H\x00\x00\x00\x01'
-2026-03-02 16:28:45,638 - DEBUG - PIL.TiffImagePlugin - tag: ResolutionUnit (296) - type: short (3) - value: b'\x00\x02'
-2026-03-02 16:28:45,640 - DEBUG - PIL.TiffImagePlugin - tag: DateTime (306) - type: string (2) Tag Location: 106 - Data Location: 186 - value: b'2003:08:13 14:08:15\x00'
-2026-03-02 16:28:45,640 - DEBUG - PIL.TiffImagePlugin - tag: ExifIFD (34665) - type: long (4) - value: b'\x00\x00\x00\xce'
-2026-03-02 16:29:56,536 - DEBUG - PIL.TiffImagePlugin - tag: Software (305) - type: string (2) Tag Location: 22 - Data Location: 38 - value: b'Google\x00'
-2026-03-02 16:29:56,537 - DEBUG - PIL.TiffImagePlugin - tag: ExifIFD (34665) - type: long (4) - value: b'.\x00\x00\x00'
-2026-03-02 16:30:24,826 - DEBUG - PIL.TiffImagePlugin - tag: ImageWidth (256) - type: long (4) - value: b'\xc0\x14\x00\x00'
-2026-03-02 16:30:24,828 - DEBUG - PIL.TiffImagePlugin - tag: ImageLength (257) - type: long (4) - value: b'\xac\x0b\x00\x00'
-2026-03-02 16:30:24,828 - DEBUG - PIL.TiffImagePlugin - tag: BitsPerSample (258) - type: short (3) Tag Location: 46 - Data Location: 206 - value: b'\x08\x00\x08\x00\x08\x00'
-2026-03-02 16:30:24,828 - DEBUG - PIL.TiffImagePlugin - tag: PhotometricInterpretation (262) - type: short (3) - value: b'\x02\x00'
-2026-03-02 16:30:24,828 - DEBUG - PIL.TiffImagePlugin - tag: Make (271) - type: string (2) Tag Location: 70 - Data Location: 212 - value: b'samsung\x00'
-2026-03-02 16:30:24,828 - DEBUG - PIL.TiffImagePlugin - tag: Model (272) - type: string (2) Tag Location: 82 - Data Location: 220 - value: b'SM-G900V\x00'
-2026-03-02 16:30:24,830 - DEBUG - PIL.TiffImagePlugin - tag: Orientation (274) - type: short (3) - value: b'\x01\x00'
-2026-03-02 16:30:24,830 - DEBUG - PIL.TiffImagePlugin - tag: SamplesPerPixel (277) - type: short (3) - value: b'\x03\x00'
-2026-03-02 16:30:24,830 - DEBUG - PIL.TiffImagePlugin - tag: XResolution (282) - type: rational (5) Tag Location: 118 - Data Location: 229 - value: b"\x80\xfc\n\x00\x10'\x00\x00"
-2026-03-02 16:30:24,830 - DEBUG - PIL.TiffImagePlugin - tag: YResolution (283) - type: rational (5) Tag Location: 130 - Data Location: 237 - value: b"\x80\xfc\n\x00\x10'\x00\x00"
-2026-03-02 16:30:24,830 - DEBUG - PIL.TiffImagePlugin - tag: ResolutionUnit (296) - type: short (3) - value: b'\x02\x00'
-2026-03-02 16:30:24,832 - DEBUG - PIL.TiffImagePlugin - tag: Software (305) - type: string (2) Tag Location: 154 - Data Location: 245 - value: <table: 34 bytes>
-2026-03-02 16:30:24,832 - DEBUG - PIL.TiffImagePlugin - tag: DateTime (306) - type: string (2) Tag Location: 166 - Data Location: 279 - value: b'2017:12:20 14:03:04\x00'
-2026-03-02 16:30:24,832 - DEBUG - PIL.TiffImagePlugin - tag: YCbCrPositioning (531) - type: short (3) - value: b'\x01\x00'
-2026-03-02 16:30:24,832 - DEBUG - PIL.TiffImagePlugin - tag: ExifIFD (34665) - type: long (4) - value: b',\x01\x00\x00'
-2026-03-02 16:30:24,832 - DEBUG - PIL.TiffImagePlugin - tag: GPSInfoIFD (34853) - type: long (4) - value: b'$\x0c\x00\x00'
-2026-03-02 16:30:24,943 - DEBUG - PIL.TiffImagePlugin - tag: Make (271) - type: string (2) Tag Location: 22 - Data Location: 146 - value: b'Canon\x00'
-2026-03-02 16:30:24,944 - DEBUG - PIL.TiffImagePlugin - tag: Model (272) - type: string (2) Tag Location: 34 - Data Location: 152 - value: b'Canon EOS REBEL T2i\x00'
-2026-03-02 16:30:24,944 - DEBUG - PIL.TiffImagePlugin - tag: Orientation (274) - type: short (3) - value: b'\x01\x00'
-2026-03-02 16:30:24,944 - DEBUG - PIL.TiffImagePlugin - tag: XResolution (282) - type: rational (5) Tag Location: 58 - Data Location: 184 - value: b'H\x00\x00\x00\x01\x00\x00\x00'
-2026-03-02 16:30:24,944 - DEBUG - PIL.TiffImagePlugin - tag: YResolution (283) - type: rational (5) Tag Location: 70 - Data Location: 192 - value: b'H\x00\x00\x00\x01\x00\x00\x00'
-2026-03-02 16:30:24,944 - DEBUG - PIL.TiffImagePlugin - tag: ResolutionUnit (296) - type: short (3) - value: b'\x02\x00'
-2026-03-02 16:30:24,945 - DEBUG - PIL.TiffImagePlugin - tag: DateTime (306) - type: string (2) Tag Location: 94 - Data Location: 200 - value: b'2011:07:06 08:13:17\x00'
-2026-03-02 16:30:24,945 - DEBUG - PIL.TiffImagePlugin - tag: Artist (315) - type: string (2) - value: b'\x00'
-2026-03-02 16:30:24,945 - DEBUG - PIL.TiffImagePlugin - tag: YCbCrPositioning (531) - type: short (3) - value: b'\x02\x00'
-2026-03-02 16:30:24,946 - DEBUG - PIL.TiffImagePlugin - tag: Copyright (33432) - type: string (2) - value: b'\x00'
-2026-03-02 16:30:24,946 - DEBUG - PIL.TiffImagePlugin - tag: ExifIFD (34665) - type: long (4) - value: b'\\\x01\x00\x00'
-2026-03-02 16:30:32,954 - DEBUG - PIL.TiffImagePlugin - tag: ImageWidth (256) - type: short (3) - value: b'\x05\x00'
-2026-03-02 16:30:32,954 - DEBUG - PIL.TiffImagePlugin - tag: ImageLength (257) - type: short (3) - value: b'\x03\xc0'
-2026-03-02 16:30:32,954 - DEBUG - PIL.TiffImagePlugin - tag: BitsPerSample (258) - type: short (3) Tag Location: 46 - Data Location: 158 - value: b'\x00\x08\x00\x08\x00\x08'
-2026-03-02 16:30:32,955 - DEBUG - PIL.TiffImagePlugin - tag: PhotometricInterpretation (262) - type: short (3) - value: b'\x00\x02'
-2026-03-02 16:30:32,955 - DEBUG - PIL.TiffImagePlugin - tag: Orientation (274) - type: short (3) - value: b'\x00\x01'
-2026-03-02 16:30:32,955 - DEBUG - PIL.TiffImagePlugin - tag: SamplesPerPixel (277) - type: short (3) - value: b'\x00\x03'
-2026-03-02 16:30:32,955 - DEBUG - PIL.TiffImagePlugin - tag: XResolution (282) - type: rational (5) Tag Location: 94 - Data Location: 164 - value: b"\x00\n\xfc\x80\x00\x00'\x10"
-2026-03-02 16:30:32,955 - DEBUG - PIL.TiffImagePlugin - tag: YResolution (283) - type: rational (5) Tag Location: 106 - Data Location: 172 - value: b"\x00\n\xfc\x80\x00\x00'\x10"
-2026-03-02 16:30:32,956 - DEBUG - PIL.TiffImagePlugin - tag: ResolutionUnit (296) - type: short (3) - value: b'\x00\x02'
-2026-03-02 16:30:32,961 - DEBUG - PIL.TiffImagePlugin - tag: Software (305) - type: string (2) Tag Location: 130 - Data Location: 180 - value: b'Adobe Photoshop CS5.1 Macintosh\x00'
-2026-03-02 16:30:32,963 - DEBUG - PIL.TiffImagePlugin - tag: DateTime (306) - type: string (2) Tag Location: 142 - Data Location: 212 - value: b'2012:06:27 14:32:02\x00'
-2026-03-02 16:30:32,965 - DEBUG - PIL.TiffImagePlugin - tag: ExifIFD (34665) - type: long (4) - value: b'\x00\x00\x00\xe8'
-2026-03-02 16:30:59,566 - DEBUG - PIL.TiffImagePlugin - tag: ImageWidth (256) - type: short (3) - value: b' \n'
-2026-03-02 16:30:59,567 - DEBUG - PIL.TiffImagePlugin - tag: ImageLength (257) - type: short (3) - value: b'\x98\x07'
-2026-03-02 16:30:59,567 - DEBUG - PIL.TiffImagePlugin - tag: BitsPerSample (258) - type: short (3) Tag Location: 46 - Data Location: 206 - value: b'\x08\x00\x08\x00\x08\x00'
-2026-03-02 16:30:59,567 - DEBUG - PIL.TiffImagePlugin - tag: PhotometricInterpretation (262) - type: short (3) - value: b'\x02\x00'
-2026-03-02 16:30:59,568 - DEBUG - PIL.TiffImagePlugin - tag: Make (271) - type: string (2) Tag Location: 70 - Data Location: 212 - value: b'SONY\x00'
-2026-03-02 16:30:59,568 - DEBUG - PIL.TiffImagePlugin - tag: Model (272) - type: string (2) Tag Location: 82 - Data Location: 217 - value: b'DSC-W120\x00'
-2026-03-02 16:30:59,568 - DEBUG - PIL.TiffImagePlugin - tag: Orientation (274) - type: short (3) - value: b'\x01\x00'
-2026-03-02 16:30:59,569 - DEBUG - PIL.TiffImagePlugin - tag: SamplesPerPixel (277) - type: short (3) - value: b'\x03\x00'
-2026-03-02 16:30:59,569 - DEBUG - PIL.TiffImagePlugin - tag: XResolution (282) - type: rational (5) Tag Location: 118 - Data Location: 226 - value: b"\x80\xfc\n\x00\x10'\x00\x00"
-2026-03-02 16:30:59,570 - DEBUG - PIL.TiffImagePlugin - tag: YResolution (283) - type: rational (5) Tag Location: 130 - Data Location: 234 - value: b"\x80\xfc\n\x00\x10'\x00\x00"
-2026-03-02 16:30:59,570 - DEBUG - PIL.TiffImagePlugin - tag: ResolutionUnit (296) - type: short (3) - value: b'\x02\x00'
-2026-03-02 16:30:59,570 - DEBUG - PIL.TiffImagePlugin - tag: Software (305) - type: string (2) Tag Location: 154 - Data Location: 242 - value: <table: 34 bytes>
-2026-03-02 16:30:59,571 - DEBUG - PIL.TiffImagePlugin - tag: DateTime (306) - type: string (2) Tag Location: 166 - Data Location: 276 - value: b'2017:12:20 14:05:40\x00'
-2026-03-02 16:30:59,571 - DEBUG - PIL.TiffImagePlugin - tag: YCbCrPositioning (531) - type: short (3) - value: b'\x02\x00'
-2026-03-02 16:30:59,572 - DEBUG - PIL.TiffImagePlugin - tag: unknown (50341) - type: undefined (7) Tag Location: 190 - Data Location: 296 - value: b'PrintIM\x000300\x00\x00\x02\x00\x02\x00\x01\x00\x00\x00\x01\x01\x01\x00\x00\x00'
-2026-03-02 16:30:59,573 - DEBUG - PIL.TiffImagePlugin - tag: ExifIFD (34665) - type: long (4) - value: b'D\x01\x00\x00'
-2026-03-02 16:31:03,130 - DEBUG - PIL.TiffImagePlugin - tag: Software (305) - type: string (2) Tag Location: 22 - Data Location: 38 - value: b'Google\x00'
-2026-03-02 16:31:03,130 - DEBUG - PIL.TiffImagePlugin - tag: ExifIFD (34665) - type: long (4) - value: b'.\x00\x00\x00'
-2026-03-02 16:31:34,235 - DEBUG - PIL.TiffImagePlugin - tag: Make (271) - type: string (2) Tag Location: 22 - Data Location: 146 - value: b'Canon\x00'
-2026-03-02 16:31:34,235 - DEBUG - PIL.TiffImagePlugin - tag: Model (272) - type: string (2) Tag Location: 34 - Data Location: 152 - value: b'Canon EOS REBEL T2i\x00'
-2026-03-02 16:31:34,235 - DEBUG - PIL.TiffImagePlugin - tag: Orientation (274) - type: short (3) - value: b'\x01\x00'
-2026-03-02 16:31:34,235 - DEBUG - PIL.TiffImagePlugin - tag: XResolution (282) - type: rational (5) Tag Location: 58 - Data Location: 184 - value: b'H\x00\x00\x00\x01\x00\x00\x00'
-2026-03-02 16:31:34,236 - DEBUG - PIL.TiffImagePlugin - tag: YResolution (283) - type: rational (5) Tag Location: 70 - Data Location: 192 - value: b'H\x00\x00\x00\x01\x00\x00\x00'
-2026-03-02 16:31:34,236 - DEBUG - PIL.TiffImagePlugin - tag: ResolutionUnit (296) - type: short (3) - value: b'\x02\x00'
-2026-03-02 16:31:34,236 - DEBUG - PIL.TiffImagePlugin - tag: DateTime (306) - type: string (2) Tag Location: 94 - Data Location: 200 - value: b'2011:07:06 08:05:38\x00'
-2026-03-02 16:31:34,236 - DEBUG - PIL.TiffImagePlugin - tag: Artist (315) - type: string (2) - value: b'\x00'
-2026-03-02 16:31:34,236 - DEBUG - PIL.TiffImagePlugin - tag: YCbCrPositioning (531) - type: short (3) - value: b'\x02\x00'
-2026-03-02 16:31:34,236 - DEBUG - PIL.TiffImagePlugin - tag: Copyright (33432) - type: string (2) - value: b'\x00'
-2026-03-02 16:31:34,236 - DEBUG - PIL.TiffImagePlugin - tag: ExifIFD (34665) - type: long (4) - value: b'\\\x01\x00\x00'
-2026-03-02 16:31:43,274 - INFO - root - Epoch [1/1], Loss: 0.1757, Accuracy: 94.44%
-2026-03-02 16:31:43,424 - INFO - root - Model saved successfully.
-2026-03-02 16:33:13,742 - DEBUG - app.build.load_model_v1 - Model path: E:\AIML\PlantDoctor\app\models\leaf_detection_model_v3.pth
-2026-03-02 16:33:13,989 - INFO - app.build.load_model_v1 - Model loaded successfully.
-2026-03-02 16:33:14,190 - DEBUG - app.build.train.build_model - {0: 'apple', 1: 'grapevine', 2: 'mango', 3: 'paddy', 4: 'soyabean'}
-2026-03-02 16:33:14,190 - DEBUG - app.build.train.build_model - classes: ['apple', 'grapevine', 'mango', 'paddy', 'soyabean']
-2026-03-02 16:33:14,190 - DEBUG - app.build.train.build_model - number of training images: 1510
-2026-03-02 16:33:14,190 - DEBUG - app.build.train.build_model - number of testing images: 794
-2026-03-02 16:33:14,409 - DEBUG - app.build.train.build_model - Linear(in_features=512, out_features=5, bias=True)
-2026-03-02 16:33:14,409 - DEBUG - root - Model built
-2026-03-02 16:33:14,424 - INFO - root - Base dir; E:\AIML\PlantDoctor\app, MODEL_DIR: E:\AIML\PlantDoctor\app\models\leaf_detection_model_v4.pth
-2026-03-02 16:37:09,283 - DEBUG - app.build.load_model_v1 - Model path: E:\AIML\PlantDoctor\app\models\leaf_detection_model_v3.pth
-2026-03-02 16:37:09,452 - INFO - app.build.load_model_v1 - Model loaded successfully.
-2026-03-02 16:37:09,583 - DEBUG - root - Model built
-2026-03-02 16:39:16,573 - DEBUG - app.utils.model_version - leaf_detection_model_v3.pth
-2026-03-02 16:39:16,575 - DEBUG - app.build.load_model_v1 - Model path: E:\AIML\PlantDoctor\app\models\leaf_detection_model_v3.pth
-2026-03-02 16:39:16,752 - INFO - app.build.load_model_v1 - Model loaded successfully.
-2026-03-02 16:39:16,859 - DEBUG - root - Model built
-2026-03-02 16:42:22,232 - DEBUG - app.utils.model_version - leaf_detection_model_v3.pth
-2026-03-02 16:42:22,232 - DEBUG - app.build.load_model_v1 - Model path: E:\AIML\PlantDoctor\app\models\leaf_detection_model_v3.pth
-2026-03-02 16:42:22,404 - INFO - app.build.load_model_v1 - Model loaded successfully.
-2026-03-02 16:44:45,231 - DEBUG - app.utils.model_version - leaf_detection_model_v3.pth
-2026-03-02 16:44:45,231 - DEBUG - app.build.load_model_v1 - Model path: E:\AIML\PlantDoctor\app\models\leaf_detection_model_v3.pth
-2026-03-02 16:44:45,484 - INFO - app.build.load_model_v1 - Model loaded successfully.
-2026-03-02 16:45:51,514 - DEBUG - app.utils.model_version - leaf_detection_model_v3.pth
-2026-03-02 16:45:51,514 - DEBUG - app.build.load_model_v1 - Model path: E:\AIML\PlantDoctor\app\models\leaf_detection_model_v3.pth
-2026-03-02 16:45:51,720 - INFO - app.build.load_model_v1 - Model loaded successfully.
-2026-03-02 16:47:04,854 - DEBUG - app.utils.model_version - leaf_detection_model_v3.pth
-2026-03-02 16:47:04,854 - DEBUG - app.build.load_model_v1 - Model path: E:\AIML\PlantDoctor\app\models\leaf_detection_model_v3.pth
-2026-03-02 16:47:05,088 - INFO - app.build.load_model_v1 - Model loaded successfully.
-2026-03-02 16:51:23,518 - DEBUG - celery.utils.functional - 
+2026-03-03 12:46:02,489 - DEBUG - celery.utils.functional - 
 def predict_leaf_task(self, path):
     return 1
 
-2026-03-02 16:57:25,061 - DEBUG - celery.utils.functional - 
-def upload_dataset_task(self, zip_path):
-    return 1
-
-2026-03-02 16:59:01,002 - DEBUG - celery.utils.functional - 
-def train_model_task(self, num_epochs):
-    return 1
-
-2026-03-02 17:30:33,549 - DEBUG - app.utils.model_version - leaf_detection_model_v1.pth
-2026-03-02 17:30:33,549 - DEBUG - app.build.load_model_v1 - Model path: E:\AIML\PlantDoctor\app\models\leaf_detection_model_v1.pth
-2026-03-02 17:36:07,686 - DEBUG - app.utils.model_version - leaf_detection_model_v1.pth
-2026-03-02 17:36:07,686 - DEBUG - app.build.load_model_v1 - Model path: E:\AIML\PlantDoctor\app\models\leaf_detection_model_v1.pth
-2026-03-02 17:36:07,686 - ERROR - app.build.load_model_v1 - No Model found
-2026-03-02 17:36:33,976 - DEBUG - app.utils.model_version - leaf_detection_model_v1.pth
-2026-03-02 17:36:33,977 - DEBUG - app.build.load_model_v1 - Model path: E:\AIML\PlantDoctor\app\models\leaf_detection_model_v1.pth
-2026-03-02 17:36:33,980 - ERROR - app.build.load_model_v1 - No Model found
-2026-03-02 17:36:53,964 - DEBUG - celery.utils.functional - 
-def upload_dataset_task(self, zip_path):
-    return 1
-
-2026-03-02 17:41:26,445 - DEBUG - celery.utils.functional - 
-def train_model_task(self, num_epochs):
-    return 1
-
-2026-03-02 18:38:48,772 - DEBUG - app.utils.model_version - leaf_detection_model_v2.pth
-2026-03-02 18:38:48,785 - DEBUG - app.build.load_model_v1 - Model path: E:\AIML\PlantDoctor\app\models\leaf_detection_model_v2.pth
-2026-03-02 18:38:49,236 - INFO - app.build.load_model_v1 - Model loaded successfully.
-2026-03-02 18:38:49,471 - DEBUG - app.build.train.build_model - {0: 'turmeric_healthy', 1: 'turmeric_leaf_spot'}
-2026-03-02 18:38:49,475 - DEBUG - app.build.train.build_model - classes: ['turmeric_healthy', 'turmeric_leaf_spot']
-2026-03-02 18:38:49,475 - DEBUG - app.build.train.build_model - number of training images: 1260
-2026-03-02 18:38:49,475 - DEBUG - app.build.train.build_model - number of testing images: 480
-2026-03-02 18:38:49,825 - DEBUG - app.build.train.build_model - Linear(in_features=512, out_features=2, bias=True)
-2026-03-02 18:38:49,828 - DEBUG - root - Deep learning model built sucessfully.
-2026-03-02 18:38:49,828 - INFO - root - Initialised traning epochs
-2026-03-02 18:40:21,154 - INFO - root - Epoch [1/1], Loss: 0.6192, Accuracy: 65.95%
-2026-03-02 18:40:21,367 - INFO - root - Model saved successfully.
-2026-03-02 18:50:13,456 - DEBUG - celery.utils.functional - 
-def predict_leaf_task(self, path):
-    return 1
-
+2026-03-03 17:24:14,545 - DEBUG - app.utils.model_version - leaf_detection_model_v3.pth
+2026-03-03 17:24:14,545 - DEBUG - app.build.load_model_v1 - Model path: E:\AIML\PlantDoctor\app\models\leaf_detection_model_v3.pth
+2026-03-03 17:24:15,294 - INFO - app.build.load_model_v1 - Model loaded successfully.
+2026-03-03 17:24:51,684 - DEBUG - app.utils.model_version - leaf_detection_model_v3.pth
+2026-03-03 17:24:51,687 - DEBUG - app.build.load_model_v1 - Model path: E:\AIML\PlantDoctor\app\models\leaf_detection_model_v3.pth
+2026-03-03 17:24:52,098 - INFO - app.build.load_model_v1 - Model loaded successfully.
+2026-03-03 17:25:29,266 - DEBUG - app.utils.model_version - leaf_detection_model_v3.pth
+2026-03-03 17:25:29,266 - DEBUG - app.build.load_model_v1 - Model path: E:\AIML\PlantDoctor\app\models\leaf_detection_model_v3.pth
+2026-03-03 17:25:29,666 - INFO - app.build.load_model_v1 - Model loaded successfully.
+2026-03-03 17:26:02,356 - DEBUG - app.utils.model_version - leaf_detection_model_v3.pth
+2026-03-03 17:26:02,356 - DEBUG - app.build.load_model_v1 - Model path: E:\AIML\PlantDoctor\app\models\leaf_detection_model_v3.pth
+2026-03-03 17:26:02,752 - INFO - app.build.load_model_v1 - Model loaded successfully.
+2026-03-03 17:26:03,179 - INFO - app.utils.model_version - Existing model detected.
+2026-03-03 17:28:24,410 - DEBUG - app.utils.model_version - leaf_detection_model_v3.pth
+2026-03-03 17:28:24,410 - DEBUG - app.build.load_model_v1 - Model path: E:\AIML\PlantDoctor\app\models\leaf_detection_model_v3.pth
+2026-03-03 17:28:24,816 - INFO - app.build.load_model_v1 - Model loaded successfully.
+2026-03-03 17:28:25,241 - INFO - app.utils.model_version - Existing model detected.
+2026-03-03 17:29:38,324 - DEBUG - app.utils.model_version - leaf_detection_model_v0.pth
+2026-03-03 17:29:38,325 - DEBUG - app.build.load_model_v1 - Model path: E:\AIML\PlantDoctor\app\models\leaf_detection_model_v0.pth
+2026-03-03 17:29:38,325 - ERROR - app.build.load_model_v1 - No Model found
+2026-03-03 17:29:38,957 - INFO - app.utils.model_version - No model detected, downloading model...
+2026-03-03 17:31:25,377 - DEBUG - app.utils.model_version - leaf_detection_model_v0.pth
+2026-03-03 17:31:25,377 - DEBUG - app.build.load_model_v1 - Model path: E:\AIML\PlantDoctor\app\models\leaf_detection_model_v0.pth
+2026-03-03 17:31:25,377 - ERROR - app.build.load_model_v1 - No Model found
+2026-03-03 17:31:25,871 - INFO - app.utils.model_version - No model detected, downloading model...
+2026-03-03 17:32:33,883 - DEBUG - app.utils.model_version - leaf_detection_model_v0.pth
+2026-03-03 17:32:33,883 - DEBUG - app.build.load_model_v1 - Model path: E:\AIML\PlantDoctor\app\models\leaf_detection_model_v0.pth
+2026-03-03 17:32:33,883 - ERROR - app.build.load_model_v1 - No Model found
+2026-03-03 17:32:34,321 - INFO - app.utils.model_version - No model detected, downloading model...

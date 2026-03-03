@@ -1,6 +1,5 @@
 fastapi
 uvicorn
-tensorflow == 2.15.0
 numpy
 opencv-python
 python-multipart
@@ -12,3 +11,5 @@ pillow
 scikit-learn
 celery
 redis
+huggingface_hub
+requests
