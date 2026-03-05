@@ -17,7 +17,9 @@ def new_model_name():
 def current_model_name():
     if not MODEL_DIR.exists():
         return "leaf_detection_model_v1.pth"
-    version = len([f for f in MODEL_DIR.iterdir() if f.is_file()]) + 1
+    version = len([f for f in MODEL_DIR.iterdir() if f.is_file()])
+    if version == 0:
+        version += 1
     logger.debug(f"leaf_detection_model_v{version}.pth")
     return f"leaf_detection_model_v{version}.pth"
 

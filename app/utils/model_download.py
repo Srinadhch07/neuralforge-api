@@ -17,4 +17,4 @@ def download_model():
         print("Model ready.")
     else:
         print(f"{MODEL_PATH}")
-download_model()
+
