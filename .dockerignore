@@ -1,0 +1,13 @@
+.venv
+__pycache__
+*.pyc
+logs
+datasets
+data
+temp
+models
+.git
+.gitignore
+sample dataset
+temp_uploads
+uploads
