@@ -3,7 +3,6 @@ notes.txt
 .venv/
 __pycache__/
 data/
-models/
 uploads/
 sample_dataset/
 temp_uploads/
