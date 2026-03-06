@@ -25,11 +25,18 @@ model = models.resnet18(weights=ResNet18_Weights.DEFAULT)
 # We must update the number off layers it must equal to classes
 num_features = model.fc.in_features 
 num_classes = len(train_data.classes)
+
+model.fc = nn.Linear(model.fc.in_features, num_classes)
+
 for param in model.parameters():
     param.requires_grad = False
 
-model.fc = nn.Linear(model.fc.in_features, num_classes)
-# model.fc = nn.Linear(num_features,num_classes) 
+for param in model.layer4.parameters():
+    param.requires_grad = True
+
+for param in model.fc.parameters():
+    param.requires_grad = True
+
 logger.debug(model.fc)
 
 # Move model to GPU if available

@@ -6,3 +6,22 @@
 2026-03-05 11:59:46,697 - DEBUG - app.build.load_model_v1 - Model path: E:\AIML\PlantDoctor\app\models\leaf_detection_model_v1.pth
 2026-03-05 11:59:47,091 - INFO - app.build.load_model_v1 - Model loaded successfully.
 2026-03-05 11:59:47,540 - INFO - app.utils.model_version - Existing model detected.
+2026-03-05 15:23:20,124 - DEBUG - app.utils.model_version - leaf_detection_model_v1.pth
+2026-03-05 15:23:20,124 - DEBUG - app.build.load_model_v1 - Model path: E:\AIML\PlantDoctor\app\models\leaf_detection_model_v1.pth
+2026-03-05 15:23:20,699 - INFO - app.build.load_model_v1 - Model loaded successfully.
+2026-03-05 15:23:21,268 - INFO - app.utils.model_version - Existing model detected.
+2026-03-05 15:26:26,068 - DEBUG - celery.utils.functional - 
+def upload_dataset_task(self, zip_path):
+    return 1
+
+2026-03-05 15:26:26,373 - WARNING - celery.backends.redis - 
+Setting ssl_cert_reqs=CERT_NONE when connecting to redis means that celery will not validate the identity of the redis broker when connecting. This leaves you vulnerable to man in the middle attacks.
+
+2026-03-05 15:27:33,025 - DEBUG - celery.utils.functional - 
+def train_model_task(self, num_epochs):
+    return 1
+
+2026-03-05 15:36:04,221 - DEBUG - celery.utils.functional - 
+def predict_leaf_task(self, path):
+    return 1
+
