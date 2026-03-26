@@ -1,0 +1,102 @@
+2026-03-07 10:13:13,911 - DEBUG - app.utils.model_version - leaf_detection_model_v3.pth
+2026-03-07 10:13:13,911 - DEBUG - app.build.load_model_v1 - Model path: E:\AIML\PlantDoctor\app\models\leaf_detection_model_v3.pth
+2026-03-07 10:30:05,361 - DEBUG - app.utils.model_version - leaf_detection_model_v1.pth
+2026-03-07 10:30:05,361 - DEBUG - app.build.load_model_v1 - Model path: E:\AIML\PlantDoctor\app\models\leaf_detection_model_v1.pth
+2026-03-07 10:30:05,780 - INFO - app.build.load_model_v1 - Model loaded successfully.
+2026-03-07 10:30:06,344 - INFO - app.utils.model_version - Existing model detected.
+2026-03-07 11:00:41,769 - DEBUG - app.utils.model_version - leaf_detection_model_v1.pth
+2026-03-07 11:00:41,769 - DEBUG - app.build.load_model_v1 - Model path: E:\AIML\PlantDoctor\app\models\leaf_detection_model_v1.pth
+2026-03-07 11:00:42,173 - INFO - app.build.load_model_v1 - Model loaded successfully.
+2026-03-07 11:00:42,465 - INFO - app.utils.model_version - Existing model detected.
+2026-03-07 11:21:49,727 - INFO - app.utils.model_version - Existing model detected.
+2026-03-07 11:22:11,824 - INFO - app.utils.model_version - Existing model detected.
+2026-03-07 11:23:25,731 - INFO - app.utils.model_version - Existing model detected.
+2026-03-07 11:23:25,734 - DEBUG - app.utils.model_version - leaf_detection_model_v1.pth
+2026-03-07 11:23:25,734 - DEBUG - app.build.load_model_v1 - Model path: E:\AIML\PlantDoctor\app\models\leaf_detection_model_v1.pth
+2026-03-07 11:23:26,063 - INFO - app.build.load_model_v1 - Model loaded successfully.
+2026-03-07 11:23:26,063 - INFO - app.utils.load_model_version - Initialized Small Model
+2026-03-07 11:39:45,737 - INFO - app.utils.model_version - Existing model detected.
+2026-03-07 11:39:45,739 - DEBUG - app.utils.model_version - leaf_detection_model_v1.pth
+2026-03-07 11:39:45,740 - DEBUG - app.build.load_model_v1 - Model path: E:\AIML\PlantDoctor\app\models\leaf_detection_model_v1.pth
+2026-03-07 11:39:46,267 - INFO - app.build.load_model_v1 - Model loaded successfully.
+2026-03-07 11:39:46,268 - INFO - app.utils.load_model_version - Initialized Small Model
+2026-03-07 11:40:20,861 - ERROR - app - NameError at E:\AIML\PlantDoctor\app\routers\v1\routes.py:37 : name 'payload' is not defined
+2026-03-07 11:40:46,532 - INFO - app.utils.model_version - Existing model detected.
+2026-03-07 11:40:46,534 - DEBUG - app.utils.model_version - leaf_detection_model_v1.pth
+2026-03-07 11:40:46,535 - DEBUG - app.build.load_model_v1 - Model path: E:\AIML\PlantDoctor\app\models\leaf_detection_model_v1.pth
+2026-03-07 11:40:46,767 - INFO - app.build.load_model_v1 - Model loaded successfully.
+2026-03-07 11:40:46,767 - INFO - app.utils.load_model_version - Initialized Small Model
+2026-03-07 11:40:50,737 - DEBUG - celery.utils.functional - 
+def predict_leaf_task(self, payload):
+    return 1
+
+2026-03-07 11:40:51,016 - WARNING - celery.backends.redis - 
+Setting ssl_cert_reqs=CERT_NONE when connecting to redis means that celery will not validate the identity of the redis broker when connecting. This leaves you vulnerable to man in the middle attacks.
+
+2026-03-07 11:41:14,130 - WARNING - celery.backends.redis - 
+Setting ssl_cert_reqs=CERT_NONE when connecting to redis means that celery will not validate the identity of the redis broker when connecting. This leaves you vulnerable to man in the middle attacks.
+
+2026-03-07 11:44:03,936 - INFO - app.utils.model_version - Existing model detected.
+2026-03-07 11:44:03,947 - DEBUG - app.utils.model_version - leaf_detection_model_v1.pth
+2026-03-07 11:44:03,948 - DEBUG - app.build.load_model_v1 - Model path: E:\AIML\PlantDoctor\app\models\leaf_detection_model_v1.pth
+2026-03-07 11:44:04,276 - INFO - app.build.load_model_v1 - Model loaded successfully.
+2026-03-07 11:44:04,276 - INFO - app.utils.load_model_version - Initialized Small Model
+2026-03-07 11:44:21,361 - DEBUG - celery.utils.functional - 
+def predict_leaf_task(self, payload):
+    return 1
+
+2026-03-07 11:44:21,590 - WARNING - celery.backends.redis - 
+Setting ssl_cert_reqs=CERT_NONE when connecting to redis means that celery will not validate the identity of the redis broker when connecting. This leaves you vulnerable to man in the middle attacks.
+
+2026-03-07 11:47:07,322 - INFO - app.utils.model_version - Existing model detected.
+2026-03-07 11:47:07,322 - DEBUG - app.utils.model_version - leaf_detection_model_v1.pth
+2026-03-07 11:47:07,322 - DEBUG - app.build.load_model_v1 - Model path: E:\AIML\PlantDoctor\app\models\leaf_detection_model_v1.pth
+2026-03-07 11:47:07,704 - INFO - app.build.load_model_v1 - Model loaded successfully.
+2026-03-07 11:47:07,705 - INFO - app.utils.load_model_version - Initialized Small Model
+2026-03-07 11:47:19,968 - DEBUG - celery.utils.functional - 
+def predict_leaf_task(self, payload):
+    return 1
+
+2026-03-07 11:47:20,268 - WARNING - celery.backends.redis - 
+Setting ssl_cert_reqs=CERT_NONE when connecting to redis means that celery will not validate the identity of the redis broker when connecting. This leaves you vulnerable to man in the middle attacks.
+
+2026-03-07 11:48:40,159 - INFO - app.utils.model_version - Existing model detected.
+2026-03-07 11:48:40,159 - DEBUG - app.utils.model_version - leaf_detection_model_v1.pth
+2026-03-07 11:48:40,159 - DEBUG - app.build.load_model_v1 - Model path: E:\AIML\PlantDoctor\app\models\leaf_detection_model_v1.pth
+2026-03-07 11:48:40,468 - INFO - app.build.load_model_v1 - Model loaded successfully.
+2026-03-07 11:48:40,468 - INFO - app.utils.load_model_version - Initialized Small Model
+2026-03-07 11:48:56,431 - DEBUG - celery.utils.functional - 
+def predict_leaf_task(self, payload):
+    return 1
+
+2026-03-07 11:48:56,660 - WARNING - celery.backends.redis - 
+Setting ssl_cert_reqs=CERT_NONE when connecting to redis means that celery will not validate the identity of the redis broker when connecting. This leaves you vulnerable to man in the middle attacks.
+
+2026-03-07 11:51:22,373 - INFO - app.utils.model_version - Existing model detected.
+2026-03-07 11:51:22,373 - DEBUG - app.utils.model_version - leaf_detection_model_v1.pth
+2026-03-07 11:51:22,373 - DEBUG - app.build.load_model_v1 - Model path: E:\AIML\PlantDoctor\app\models\leaf_detection_model_v1.pth
+2026-03-07 11:51:22,769 - INFO - app.build.load_model_v1 - Model loaded successfully.
+2026-03-07 11:51:22,769 - INFO - app.utils.load_model_version - Initialized Small Model
+2026-03-07 11:51:39,181 - DEBUG - celery.utils.functional - 
+def predict_leaf_task(self, payload):
+    return 1
+
+2026-03-07 11:51:39,453 - WARNING - celery.backends.redis - 
+Setting ssl_cert_reqs=CERT_NONE when connecting to redis means that celery will not validate the identity of the redis broker when connecting. This leaves you vulnerable to man in the middle attacks.
+
+2026-03-07 11:52:48,439 - DEBUG - celery.utils.functional - 
+def train_model_task(self, num_epochs):
+    return 1
+
+2026-03-07 12:36:26,270 - INFO - app.utils.model_version - Existing model detected.
+2026-03-07 12:36:26,270 - DEBUG - app.utils.model_version - leaf_detection_model_v2.pth
+2026-03-07 12:36:26,270 - DEBUG - app.build.load_model_v1 - Model path: E:\AIML\PlantDoctor\app\models\leaf_detection_model_v2.pth
+2026-03-07 12:36:26,902 - INFO - app.build.load_model_v1 - Model loaded successfully.
+2026-03-07 12:36:26,902 - INFO - app.utils.load_model_version - Initialized Small Model
+2026-03-07 12:36:35,510 - DEBUG - celery.utils.functional - 
+def predict_leaf_task(self, payload):
+    return 1
+
+2026-03-07 12:36:35,994 - WARNING - celery.backends.redis - 
+Setting ssl_cert_reqs=CERT_NONE when connecting to redis means that celery will not validate the identity of the redis broker when connecting. This leaves you vulnerable to man in the middle attacks.
+

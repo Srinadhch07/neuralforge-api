@@ -16,18 +16,38 @@ model = None
 checkpoint = None
 device = None
 
-def load_model():
+def large_model():
     global model, checkpoint, device
     if model is None:
-        from .load_model_v1 import model as m, checkpoint as c, device as d
-        model = m
-        checkpoint = c
-        device = d
+        from app.build.train.v2.load_model import model as m , checkpoint as c, device as d
+        model, checkpoint, device = m,c,d
+        logger.info("Initialised Large Model")
 
-def leaf_detection_model(image_path: str):
+def medium_model():
+    global model, checkpoint, device
+    if model is None:
+        from app.build.train.v3.load_model import model as m, checkpoint as c, device as d
+        model, checkpoint, device = m,c,d
+        logger.info("Initialised Medium Model")
+        
+def small_model():
+    global model, checkpoint, device
+    if model is None:
+        from .train.v1.load_model_v1 import model as m, checkpoint as c, device as d
+        model, checkpoint, device = m,c,d
+        logger.info("Initialised Small Model")
+
+def load_model(model_type: str = "small"):
+    small_model() if model_type == "small" else medium_model() if model_type == "medium" else large_model()
+
+def leaf_detection_model(image_input, model_type: str = "small"):
     try:
-        load_model()
-        img = Image.open(image_path).convert("RGB")
+        
+        load_model(model_type)
+        if isinstance(image_input, Image.Image):
+            img = image_input.convert("RGB")
+        else:
+            img = Image.open(image_input).convert("RGB")
         input_tensor = transform(img).unsqueeze(0).to(device)
         with torch.no_grad():
             output = model(input_tensor)

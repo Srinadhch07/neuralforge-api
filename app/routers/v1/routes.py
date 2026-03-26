@@ -1,13 +1,11 @@
-from fastapi import APIRouter, UploadFile, HTTPException
+from fastapi import APIRouter, UploadFile, HTTPException, Form, Request
 from uuid import uuid4
 import os
 import logging
 import shutil
-from celery.result import AsyncResult
-from pydantic import BaseModel
-
-from app.config.celery_app import celery
+from typing import Literal
 from app.tasks.dl_tasks import predict_leaf_task
+from app.schemas.v1.schemas import ModelType
 
 logger = logging.getLogger(__name__)
 
@@ -17,11 +15,11 @@ ALLOWED_EXTENSIONS = {".jpg", ".jpeg", ".png"}
 
 os.makedirs(UPLOAD_DIR, exist_ok=True)
 
-router = APIRouter(prefix="/v1/model", tags=["Inference"])
+router = APIRouter(prefix="/v1/model")
 
-@router.post( "/predict", name = "Inference model", summary="Predict plant species and disease", description= "", status_code=202
-)
-async def predict(file: UploadFile):
+@router.post( "/predict", name = "Inference model", summary="Predict plant species and disease", description= "", status_code=202)
+async def predict(request: Request, file: UploadFile, model: Literal["small","medium","large"] = Form("small")):
+
     if file.content_type not in ALLOWED_TYPES:
         raise HTTPException(status_code=400, details="Only Images are allowed.")
     ext = os.path.splitext(file.filename)[1].lower()
@@ -31,13 +29,11 @@ async def predict(file: UploadFile):
     file_path = os.path.join(UPLOAD_DIR, field_id)
     with open(file_path, "wb") as buffer:
         shutil.copyfileobj(file.file, buffer)
-    task = predict_leaf_task.delay((file_path))
+    task_payload = {
+        "path": file_path,
+        "model": model
+    }
+    task = predict_leaf_task.delay((task_payload))
     return { "status": True, "message": "deep learning learning route", "data": { "taskId": task.id, "status": "processing" }}
 
-@router.get("/task-status/{task_id}")
-def task_status(task_id: str):
-    result = AsyncResult(task_id, app=celery)
-    return {
-        "status": True, "message": "Task details", "data" : { "task_id": task_id, "state": result.state, "result": result.result if result.successful() else None
-        }
-    }
+

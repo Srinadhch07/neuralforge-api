@@ -5,20 +5,25 @@ from pathlib import Path
 import logging
 import os
 from collections import Counter
+from typing import Optional
 
-
-logger = logging.getLogger()
 from app.utils.model_version import new_model_name
 
-BASE_DIR = Path(__file__).resolve().parent.parent.parent.parent
+logger = logging.getLogger(__name__)
 
-MODEL_PATH = BASE_DIR / "models" / f"{new_model_name()}"
+new_model_versions = new_model_name()
+NEW_MODEL_NAME = new_model_versions.get("medium")
+
+BASE_DIR = Path(__file__).resolve().parent.parent.parent.parent
+MODEL_PATH = BASE_DIR / "models" / "v2" / f"{NEW_MODEL_NAME}"
 MODEL_PATH.parent.mkdir(parents=True, exist_ok=True)
 
-def train_model(num_epochs: int):
+def train_model(num_epochs: int, model_name:Optional[str] = None):
     from .build_model import model, train_loader, train_data, device, num_classes, test_loader
-    logger.debug(f'Deep learning model built sucessfully.')
-
+    logger.debug(f'Deep learning model(medium) built sucessfully.')
+    if model_name:
+        MODEL_PATH = BASE_DIR / "models" / "v2" / f"{model_name}.pth"
+        
     targets = train_data.targets
     class_counts = Counter(targets)
     counts = [class_counts[i] for i in range(len(class_counts))]
@@ -26,7 +31,7 @@ def train_model(num_epochs: int):
     criterian = nn.CrossEntropyLoss(weight=class_weights)
     
     optimizer = torch.optim.Adam(model.parameters(), lr=0.0003, weight_decay=1e-4)
-    logger.info(f"Initialised traning epochs")
+    logger.info(f"Initialized traninig epochs")
     best_val_acc = 0
     patience = 3
     counter = 0
@@ -71,19 +76,17 @@ def train_model(num_epochs: int):
             best_val_acc = val_acc
             counter = 0
             torch.save({ "model_state_dict": model.state_dict(), "num_classes": num_classes, "class_to_idx": train_data.class_to_idx }, MODEL_PATH)
-            logger.info("Best model saved.")
+            print("Best model saved.")
 
         else:
             counter += 1
-            logger.info(f"No improvement. Patience counter: {counter}/{patience}")
+            print(f"No improvement. Patience counter: {counter}/{patience}")
 
         if counter >= patience:
-            logger.info("Early stopping triggered.")
+            print("Early stopping triggered.")
             break
 
-        logger.info( f"Epoch [{epoch+1}/{num_epochs}] | " f"Train Acc: {train_acc:.2f}% | " f"Val Acc: {val_acc:.2f}%")
+        print( f"Epoch [{epoch+1}/{num_epochs}] | " f"Train Acc: {train_acc:.2f}% | " f"Val Acc: {val_acc:.2f}%")
     torch.save({ "model_state_dict": model.state_dict(), "num_classes": num_classes, "class_to_idx": train_data.class_to_idx }, MODEL_PATH)
-    logger.info("Model saved successfully.")
+    print("Model saved successfully.")
     return f"model training successfully completed."
-
-

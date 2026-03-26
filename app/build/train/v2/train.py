@@ -5,26 +5,30 @@ from pathlib import Path
 import logging
 import os
 from collections import Counter
-
+from typing import Optional
 
 logger = logging.getLogger()
 from app.utils.model_version import new_model_name
 
-BASE_DIR = Path(__file__).resolve().parent.parent.parent.parent
+new_model_versions = new_model_name()
+NEW_MODEL_NAME = new_model_versions.get("large")
 
-MODEL_PATH = BASE_DIR / "models" / f"{new_model_name()}"
+BASE_DIR = Path(__file__).resolve().parent.parent.parent.parent
+MODEL_PATH = BASE_DIR / "models" / "v3" / f"{NEW_MODEL_NAME}"
 MODEL_PATH.parent.mkdir(parents=True, exist_ok=True)
 
-def train_model(num_epochs: int):
+def train_model(num_epochs: int, model_name: Optional[str] = None):
     from .build_model import model, train_loader, train_data, device, num_classes, test_loader
-    logger.debug(f'Deep learning model built sucessfully.')
+    logger.debug(f'Deep learning model(large) built sucessfully.')
+    if model_name:
+        MODEL_PATH = BASE_DIR / "models" / "v3" / f"{model_name}.pth"
     targets = train_data.targets
     class_counts = Counter(targets)
     counts = [class_counts[i] for i in range(len(class_counts))]
     class_weights = torch.tensor([1.0/c for c in counts]).to(device)
     criterian = nn.CrossEntropyLoss(weight=class_weights)
     optimizer = torch.optim.Adam(model.parameters(), lr=0.0003, weight_decay=1e-4)
-    logger.info(f"Initialised traning epochs")
+    logger.info(f"Initialized traning epochs")
     best_val_acc = 0
     patience = 3
     counter = 0

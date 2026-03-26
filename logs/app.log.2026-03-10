@@ -1,0 +1,381 @@
+2026-03-10 09:41:27,144 - INFO - main - Existing model detected.
+2026-03-10 09:41:27,155 - DEBUG - app.utils.model_version - Current model versions: {'small': 'leaf_detection_model_small_v6.pth', 'medium': 'leaf_detection_model_medium_v1.pth', 'large': 'leaf_detection_model_large_v1.pth'}
+2026-03-10 09:41:27,155 - DEBUG - app.build.train.v1.load_model_v1 - Model path: E:\AIML\PlantDoctor\app\build\train\models\leaf_detection_model_small_v6.pth
+2026-03-10 09:41:27,188 - ERROR - app.build.train.v1.load_model_v1 - No Model found
+2026-03-10 09:41:27,190 - INFO - app.utils.load_model_version - Initialized Small Model
+2026-03-10 09:44:03,257 - WARNING - celery.backends.redis - 
+Setting ssl_cert_reqs=CERT_NONE when connecting to redis means that celery will not validate the identity of the redis broker when connecting. This leaves you vulnerable to man in the middle attacks.
+
+2026-03-10 09:46:24,070 - INFO - main - Existing model detected.
+2026-03-10 09:46:24,086 - DEBUG - app.utils.model_version - Current model versions: {'small': 'leaf_detection_model_small_v6.pth', 'medium': 'leaf_detection_model_medium_v1.pth', 'large': 'leaf_detection_model_large_v1.pth'}
+2026-03-10 09:46:24,088 - DEBUG - app.build.load_model_v1 - Model path: E:\AIML\PlantDoctor\app\models\leaf_detection_model_small_v6.pth
+2026-03-10 09:46:24,794 - INFO - app.build.load_model_v1 - Model loaded successfully.
+2026-03-10 09:46:24,794 - INFO - app.utils.load_model_version - Initialized Small Model
+2026-03-10 09:46:41,345 - WARNING - celery.backends.redis - 
+Setting ssl_cert_reqs=CERT_NONE when connecting to redis means that celery will not validate the identity of the redis broker when connecting. This leaves you vulnerable to man in the middle attacks.
+
+2026-03-10 09:47:15,677 - WARNING - celery.backends.redis - 
+Setting ssl_cert_reqs=CERT_NONE when connecting to redis means that celery will not validate the identity of the redis broker when connecting. This leaves you vulnerable to man in the middle attacks.
+
+2026-03-10 09:52:31,530 - INFO - main - Existing model detected.
+2026-03-10 09:52:31,538 - DEBUG - app.utils.model_version - Current model versions: {'small': 'leaf_detection_model_small_v6.pth', 'medium': 'leaf_detection_model_medium_v1.pth', 'large': 'leaf_detection_model_large_v1.pth'}
+2026-03-10 09:52:31,538 - DEBUG - app.build.load_model_v1 - Model path: E:\AIML\PlantDoctor\app\models\leaf_detection_model_small_v6.pth
+2026-03-10 09:52:32,047 - INFO - app.build.load_model_v1 - Model loaded successfully.
+2026-03-10 09:52:32,047 - INFO - app.utils.load_model_version - Initialized Small Model
+2026-03-10 09:53:21,270 - WARNING - celery.backends.redis - 
+Setting ssl_cert_reqs=CERT_NONE when connecting to redis means that celery will not validate the identity of the redis broker when connecting. This leaves you vulnerable to man in the middle attacks.
+
+2026-03-10 09:56:13,111 - INFO - main - Existing model detected.
+2026-03-10 09:56:13,111 - DEBUG - app.utils.model_version - Current model versions: {'small': 'leaf_detection_model_small_v6.pth', 'medium': 'leaf_detection_model_medium_v1.pth', 'large': 'leaf_detection_model_large_v1.pth'}
+2026-03-10 09:56:13,111 - DEBUG - app.build.load_model_v1 - Model path: E:\AIML\PlantDoctor\app\models\leaf_detection_model_small_v6.pth
+2026-03-10 09:56:13,521 - INFO - app.build.load_model_v1 - Model loaded successfully.
+2026-03-10 09:56:13,523 - INFO - app.utils.load_model_version - Initialized Small Model
+2026-03-10 09:56:50,450 - WARNING - celery.backends.redis - 
+Setting ssl_cert_reqs=CERT_NONE when connecting to redis means that celery will not validate the identity of the redis broker when connecting. This leaves you vulnerable to man in the middle attacks.
+
+2026-03-10 09:59:52,448 - WARNING - celery.backends.redis - 
+Setting ssl_cert_reqs=CERT_NONE when connecting to redis means that celery will not validate the identity of the redis broker when connecting. This leaves you vulnerable to man in the middle attacks.
+
+2026-03-10 10:04:20,527 - INFO - main - Existing model detected.
+2026-03-10 10:04:20,527 - DEBUG - app.utils.model_version - Current model versions: {'small': 'leaf_detection_model_small_v6.pth', 'medium': 'leaf_detection_model_medium_v1.pth', 'large': 'leaf_detection_model_large_v1.pth'}
+2026-03-10 10:04:20,527 - DEBUG - app.build.train.v1.load_model_v1 - Model path: E:\AIML\PlantDoctor\app\build\train\models\leaf_detection_model_small_v6.pth
+2026-03-10 10:04:20,527 - ERROR - app.build.train.v1.load_model_v1 - No Model found
+2026-03-10 10:04:20,527 - INFO - app.utils.load_model_version - Initialized Small Model
+2026-03-10 10:05:03,573 - INFO - main - Existing model detected.
+2026-03-10 10:05:03,595 - DEBUG - app.utils.model_version - Current model versions: {'small': 'leaf_detection_model_small_v6.pth', 'medium': 'leaf_detection_model_medium_v1.pth', 'large': 'leaf_detection_model_large_v1.pth'}
+2026-03-10 10:05:03,595 - DEBUG - app.build.train.v1.load_model_v1 - Model path: E:\AIML\PlantDoctor\app\build\models\leaf_detection_model_small_v6.pth
+2026-03-10 10:05:03,610 - ERROR - app.build.train.v1.load_model_v1 - No Model found
+2026-03-10 10:05:03,610 - INFO - app.utils.load_model_version - Initialized Small Model
+2026-03-10 10:07:10,147 - INFO - main - Existing model detected.
+2026-03-10 10:07:10,172 - DEBUG - app.utils.model_version - Current model versions: {'small': 'leaf_detection_model_small_v6.pth', 'medium': 'leaf_detection_model_medium_v1.pth', 'large': 'leaf_detection_model_large_v1.pth'}
+2026-03-10 10:07:10,172 - DEBUG - app.build.train.v1.load_model_v1 - Model path: E:\AIML\PlantDoctor\app\models\leaf_detection_model_small_v6.pth
+2026-03-10 10:07:10,394 - INFO - app.build.train.v1.load_model_v1 - Model loaded successfully.
+2026-03-10 10:07:10,394 - INFO - app.utils.load_model_version - Initialized Small Model
+2026-03-10 10:07:25,637 - INFO - main - Existing model detected.
+2026-03-10 10:07:25,637 - DEBUG - app.utils.model_version - Current model versions: {'small': 'leaf_detection_model_small_v6.pth', 'medium': 'leaf_detection_model_medium_v1.pth', 'large': 'leaf_detection_model_large_v1.pth'}
+2026-03-10 10:07:25,637 - DEBUG - app.build.train.v1.load_model_v1 - Model path: E:\AIML\PlantDoctor\app\models\leaf_detection_model_small_v6.pth
+2026-03-10 10:07:25,839 - INFO - app.build.train.v1.load_model_v1 - Model loaded successfully.
+2026-03-10 10:07:25,839 - INFO - app.utils.load_model_version - Initialized Small Model
+2026-03-10 10:08:46,909 - INFO - main - Existing model detected.
+2026-03-10 10:08:46,909 - DEBUG - app.utils.model_version - Current model versions: {'small': 'leaf_detection_model_small_v6.pth', 'medium': 'leaf_detection_model_medium_v1.pth', 'large': 'leaf_detection_model_large_v1.pth'}
+2026-03-10 10:08:46,909 - DEBUG - app.build.train.v1.load_model_v1 - Model path: E:\AIML\PlantDoctor\app\models\leaf_detection_model_small_v6.pth
+2026-03-10 10:08:47,110 - INFO - app.build.train.v1.load_model_v1 - Model loaded successfully.
+2026-03-10 10:08:47,110 - INFO - app.utils.load_model_version - Initialized Small Model
+2026-03-10 10:11:08,402 - INFO - app.utils.model_download - Downloading model …
+2026-03-10 10:13:02,797 - INFO - main - Existing model detected.
+2026-03-10 10:13:02,823 - DEBUG - app.utils.model_version - Current model versions: {'small': 'leaf_detection_model_small_v6.pth', 'medium': 'leaf_detection_model_medium_v1.pth', 'large': 'leaf_detection_model_large_v1.pth'}
+2026-03-10 10:13:02,824 - DEBUG - app.build.train.v1.load_model_v1 - Model path: E:\AIML\PlantDoctor\app\models\v1\leaf_detection_model_small_v6.pth
+2026-03-10 10:13:03,053 - INFO - app.build.train.v1.load_model_v1 - Model loaded successfully.
+2026-03-10 10:13:03,055 - INFO - app.utils.load_model_version - Initialized Small Model
+2026-03-10 10:13:19,538 - WARNING - celery.backends.redis - 
+Setting ssl_cert_reqs=CERT_NONE when connecting to redis means that celery will not validate the identity of the redis broker when connecting. This leaves you vulnerable to man in the middle attacks.
+
+2026-03-10 10:15:56,207 - INFO - main - Existing model detected.
+2026-03-10 10:15:56,208 - DEBUG - app.utils.model_version - Current model versions: {'small': 'leaf_detection_model_small_v6.pth', 'medium': 'leaf_detection_model_medium_v1.pth', 'large': 'leaf_detection_model_large_v1.pth'}
+2026-03-10 10:15:56,209 - DEBUG - app.build.train.v1.load_model_v1 - Model path: E:\AIML\PlantDoctor\app\models\v1\leaf_detection_model_small_v6.pth
+2026-03-10 10:15:56,428 - INFO - app.build.train.v1.load_model_v1 - Model loaded successfully.
+2026-03-10 10:15:56,430 - INFO - app.utils.load_model_version - Initialized Small Model
+2026-03-10 11:22:12,295 - DEBUG - botocore.hooks - Changing event name from creating-client-class.iot-data to creating-client-class.iot-data-plane
+2026-03-10 11:22:12,297 - DEBUG - botocore.hooks - Changing event name from before-call.apigateway to before-call.api-gateway
+2026-03-10 11:22:12,298 - DEBUG - botocore.hooks - Changing event name from request-created.machinelearning.Predict to request-created.machine-learning.Predict
+2026-03-10 11:22:12,299 - DEBUG - botocore.hooks - Changing event name from before-parameter-build.autoscaling.CreateLaunchConfiguration to before-parameter-build.auto-scaling.CreateLaunchConfiguration
+2026-03-10 11:22:12,299 - DEBUG - botocore.hooks - Changing event name from before-parameter-build.route53 to before-parameter-build.route-53
+2026-03-10 11:22:12,300 - DEBUG - botocore.hooks - Changing event name from request-created.cloudsearchdomain.Search to request-created.cloudsearch-domain.Search
+2026-03-10 11:22:12,301 - DEBUG - botocore.hooks - Changing event name from docs.*.autoscaling.CreateLaunchConfiguration.complete-section to docs.*.auto-scaling.CreateLaunchConfiguration.complete-section
+2026-03-10 11:22:12,304 - DEBUG - botocore.hooks - Changing event name from before-parameter-build.logs.CreateExportTask to before-parameter-build.cloudwatch-logs.CreateExportTask
+2026-03-10 11:22:12,305 - DEBUG - botocore.hooks - Changing event name from docs.*.logs.CreateExportTask.complete-section to docs.*.cloudwatch-logs.CreateExportTask.complete-section
+2026-03-10 11:22:12,305 - DEBUG - botocore.hooks - Changing event name from before-parameter-build.cloudsearchdomain.Search to before-parameter-build.cloudsearch-domain.Search
+2026-03-10 11:22:12,305 - DEBUG - botocore.hooks - Changing event name from docs.*.cloudsearchdomain.Search.complete-section to docs.*.cloudsearch-domain.Search.complete-section
+2026-03-10 11:22:12,316 - DEBUG - botocore.utils - IMDS ENDPOINT: http://169.254.169.254/
+2026-03-10 11:22:12,319 - DEBUG - botocore.credentials - Looking for credentials via: env
+2026-03-10 11:22:12,319 - DEBUG - botocore.credentials - Looking for credentials via: assume-role
+2026-03-10 11:22:12,320 - DEBUG - botocore.credentials - Looking for credentials via: assume-role-with-web-identity
+2026-03-10 11:22:12,320 - DEBUG - botocore.credentials - Looking for credentials via: sso
+2026-03-10 11:22:12,320 - DEBUG - botocore.credentials - Looking for credentials via: shared-credentials-file
+2026-03-10 11:22:12,320 - DEBUG - botocore.credentials - Looking for credentials via: login
+2026-03-10 11:22:12,320 - DEBUG - botocore.credentials - Looking for credentials via: custom-process
+2026-03-10 11:22:12,320 - DEBUG - botocore.credentials - Looking for credentials via: config-file
+2026-03-10 11:22:12,321 - DEBUG - botocore.credentials - Looking for credentials via: ec2-credentials-file
+2026-03-10 11:22:12,321 - DEBUG - botocore.credentials - Looking for credentials via: boto-config
+2026-03-10 11:22:12,321 - DEBUG - botocore.credentials - Looking for credentials via: container-role
+2026-03-10 11:22:12,321 - DEBUG - botocore.credentials - Looking for credentials via: iam-role
+2026-03-10 11:22:13,333 - DEBUG - botocore.utils - Caught retryable HTTP exception while making metadata service request to http://169.254.169.254/latest/api/token: Connect timeout on endpoint URL: "http://169.254.169.254/latest/api/token"
+Traceback (most recent call last):
+  File "E:\AIML\PlantDoctor\.venv\Lib\site-packages\urllib3\connection.py", line 204, in _new_conn
+    sock = connection.create_connection(
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "E:\AIML\PlantDoctor\.venv\Lib\site-packages\urllib3\util\connection.py", line 85, in create_connection
+    raise err
+  File "E:\AIML\PlantDoctor\.venv\Lib\site-packages\urllib3\util\connection.py", line 73, in create_connection
+    sock.connect(sa)
+TimeoutError: timed out
+
+The above exception was the direct cause of the following exception:
+
+Traceback (most recent call last):
+  File "E:\AIML\PlantDoctor\.venv\Lib\site-packages\botocore\httpsession.py", line 477, in send
+    urllib_response = conn.urlopen(
+                      ^^^^^^^^^^^^^
+  File "E:\AIML\PlantDoctor\.venv\Lib\site-packages\urllib3\connectionpool.py", line 841, in urlopen
+    retries = retries.increment(
+              ^^^^^^^^^^^^^^^^^^
+  File "E:\AIML\PlantDoctor\.venv\Lib\site-packages\urllib3\util\retry.py", line 465, in increment
+    raise reraise(type(error), error, _stacktrace)
+          ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "E:\AIML\PlantDoctor\.venv\Lib\site-packages\urllib3\util\util.py", line 39, in reraise
+    raise value
+  File "E:\AIML\PlantDoctor\.venv\Lib\site-packages\urllib3\connectionpool.py", line 787, in urlopen
+    response = self._make_request(
+               ^^^^^^^^^^^^^^^^^^^
+  File "E:\AIML\PlantDoctor\.venv\Lib\site-packages\urllib3\connectionpool.py", line 493, in _make_request
+    conn.request(
+  File "E:\AIML\PlantDoctor\.venv\Lib\site-packages\botocore\awsrequest.py", line 96, in request
+    rval = super().request(method, url, body, headers, *args, **kwargs)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "E:\AIML\PlantDoctor\.venv\Lib\site-packages\urllib3\connection.py", line 500, in request
+    self.endheaders()
+  File "C:\Users\Srina\AppData\Local\Programs\Python\Python311\Lib\http\client.py", line 1277, in endheaders
+    self._send_output(message_body, encode_chunked=encode_chunked)
+  File "E:\AIML\PlantDoctor\.venv\Lib\site-packages\botocore\awsrequest.py", line 123, in _send_output
+    self.send(msg)
+  File "E:\AIML\PlantDoctor\.venv\Lib\site-packages\botocore\awsrequest.py", line 223, in send
+    return super().send(str)
+           ^^^^^^^^^^^^^^^^^
+  File "C:\Users\Srina\AppData\Local\Programs\Python\Python311\Lib\http\client.py", line 975, in send
+    self.connect()
+  File "E:\AIML\PlantDoctor\.venv\Lib\site-packages\urllib3\connection.py", line 331, in connect
+    self.sock = self._new_conn()
+                ^^^^^^^^^^^^^^^^
+  File "E:\AIML\PlantDoctor\.venv\Lib\site-packages\urllib3\connection.py", line 213, in _new_conn
+    raise ConnectTimeoutError(
+urllib3.exceptions.ConnectTimeoutError: (<AWSHTTPConnection(host='169.254.169.254', port=80) at 0x231c6184e50>, 'Connection to 169.254.169.254 timed out. (connect timeout=1)')
+
+During handling of the above exception, another exception occurred:
+
+Traceback (most recent call last):
+  File "E:\AIML\PlantDoctor\.venv\Lib\site-packages\botocore\utils.py", line 480, in _fetch_metadata_token
+    response = self._session.send(request.prepare())
+               ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "E:\AIML\PlantDoctor\.venv\Lib\site-packages\botocore\httpsession.py", line 512, in send
+    raise ConnectTimeoutError(endpoint_url=request.url, error=e)
+botocore.exceptions.ConnectTimeoutError: Connect timeout on endpoint URL: "http://169.254.169.254/latest/api/token"
+2026-03-10 11:22:14,479 - DEBUG - botocore.utils - Caught retryable HTTP exception while making metadata service request to http://169.254.169.254/latest/meta-data/iam/security-credentials/: Connect timeout on endpoint URL: "http://169.254.169.254/latest/meta-data/iam/security-credentials/"
+Traceback (most recent call last):
+  File "E:\AIML\PlantDoctor\.venv\Lib\site-packages\urllib3\connection.py", line 204, in _new_conn
+    sock = connection.create_connection(
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "E:\AIML\PlantDoctor\.venv\Lib\site-packages\urllib3\util\connection.py", line 85, in create_connection
+    raise err
+  File "E:\AIML\PlantDoctor\.venv\Lib\site-packages\urllib3\util\connection.py", line 73, in create_connection
+    sock.connect(sa)
+TimeoutError: timed out
+
+The above exception was the direct cause of the following exception:
+
+Traceback (most recent call last):
+  File "E:\AIML\PlantDoctor\.venv\Lib\site-packages\botocore\httpsession.py", line 477, in send
+    urllib_response = conn.urlopen(
+                      ^^^^^^^^^^^^^
+  File "E:\AIML\PlantDoctor\.venv\Lib\site-packages\urllib3\connectionpool.py", line 841, in urlopen
+    retries = retries.increment(
+              ^^^^^^^^^^^^^^^^^^
+  File "E:\AIML\PlantDoctor\.venv\Lib\site-packages\urllib3\util\retry.py", line 465, in increment
+    raise reraise(type(error), error, _stacktrace)
+          ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "E:\AIML\PlantDoctor\.venv\Lib\site-packages\urllib3\util\util.py", line 39, in reraise
+    raise value
+  File "E:\AIML\PlantDoctor\.venv\Lib\site-packages\urllib3\connectionpool.py", line 787, in urlopen
+    response = self._make_request(
+               ^^^^^^^^^^^^^^^^^^^
+  File "E:\AIML\PlantDoctor\.venv\Lib\site-packages\urllib3\connectionpool.py", line 493, in _make_request
+    conn.request(
+  File "E:\AIML\PlantDoctor\.venv\Lib\site-packages\botocore\awsrequest.py", line 96, in request
+    rval = super().request(method, url, body, headers, *args, **kwargs)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "E:\AIML\PlantDoctor\.venv\Lib\site-packages\urllib3\connection.py", line 500, in request
+    self.endheaders()
+  File "C:\Users\Srina\AppData\Local\Programs\Python\Python311\Lib\http\client.py", line 1277, in endheaders
+    self._send_output(message_body, encode_chunked=encode_chunked)
+  File "E:\AIML\PlantDoctor\.venv\Lib\site-packages\botocore\awsrequest.py", line 123, in _send_output
+    self.send(msg)
+  File "E:\AIML\PlantDoctor\.venv\Lib\site-packages\botocore\awsrequest.py", line 223, in send
+    return super().send(str)
+           ^^^^^^^^^^^^^^^^^
+  File "C:\Users\Srina\AppData\Local\Programs\Python\Python311\Lib\http\client.py", line 975, in send
+    self.connect()
+  File "E:\AIML\PlantDoctor\.venv\Lib\site-packages\urllib3\connection.py", line 331, in connect
+    self.sock = self._new_conn()
+                ^^^^^^^^^^^^^^^^
+  File "E:\AIML\PlantDoctor\.venv\Lib\site-packages\urllib3\connection.py", line 213, in _new_conn
+    raise ConnectTimeoutError(
+urllib3.exceptions.ConnectTimeoutError: (<AWSHTTPConnection(host='169.254.169.254', port=80) at 0x231c6260790>, 'Connection to 169.254.169.254 timed out. (connect timeout=1)')
+
+During handling of the above exception, another exception occurred:
+
+Traceback (most recent call last):
+  File "E:\AIML\PlantDoctor\.venv\Lib\site-packages\botocore\utils.py", line 535, in _get_request
+    response = self._session.send(request.prepare())
+               ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "E:\AIML\PlantDoctor\.venv\Lib\site-packages\botocore\httpsession.py", line 512, in send
+    raise ConnectTimeoutError(endpoint_url=request.url, error=e)
+botocore.exceptions.ConnectTimeoutError: Connect timeout on endpoint URL: "http://169.254.169.254/latest/meta-data/iam/security-credentials/"
+2026-03-10 11:22:14,480 - DEBUG - botocore.utils - Max number of attempts exceeded (1) when attempting to retrieve data from metadata service.
+2026-03-10 11:22:14,501 - DEBUG - botocore.loaders - Loading JSON file: E:\AIML\PlantDoctor\.venv\Lib\site-packages\botocore\data\endpoints.json
+2026-03-10 11:22:14,538 - DEBUG - botocore.loaders - Loading JSON file: E:\AIML\PlantDoctor\.venv\Lib\site-packages\botocore\data\sdk-default-configuration.json
+2026-03-10 11:22:14,538 - DEBUG - botocore.hooks - Event choose-service-name: calling handler <function handle_service_name_alias at 0x00000231C607B6A0>
+2026-03-10 11:22:14,652 - DEBUG - botocore.loaders - Loading JSON file: E:\AIML\PlantDoctor\.venv\Lib\site-packages\botocore\data\s3\2006-03-01\service-2.json.gz
+2026-03-10 11:22:14,687 - DEBUG - botocore.loaders - Loading JSON file: E:\AIML\PlantDoctor\.venv\Lib\site-packages\botocore\data\s3\2006-03-01\service-2.sdk-extras.json
+2026-03-10 11:22:14,779 - DEBUG - botocore.loaders - Loading JSON file: E:\AIML\PlantDoctor\.venv\Lib\site-packages\botocore\data\s3\2006-03-01\endpoint-rule-set-1.json.gz
+2026-03-10 11:22:14,802 - DEBUG - botocore.loaders - Loading JSON file: E:\AIML\PlantDoctor\.venv\Lib\site-packages\botocore\data\partitions.json
+2026-03-10 11:22:14,805 - DEBUG - botocore.hooks - Event creating-client-class.s3: calling handler <function add_generate_presigned_post at 0x00000231C602A340>
+2026-03-10 11:22:14,805 - DEBUG - botocore.hooks - Event creating-client-class.s3: calling handler <function lazy_call.<locals>._handler at 0x00000231C612B240>
+2026-03-10 11:22:14,815 - DEBUG - botocore.hooks - Event creating-client-class.s3: calling handler <function add_generate_presigned_url at 0x00000231C602A0C0>
+2026-03-10 11:22:14,816 - DEBUG - botocore.configprovider - Looking for endpoint for s3 via: environment_service
+2026-03-10 11:22:14,817 - DEBUG - botocore.configprovider - Looking for endpoint for s3 via: environment_global
+2026-03-10 11:22:14,817 - DEBUG - botocore.configprovider - Looking for endpoint for s3 via: config_service
+2026-03-10 11:22:14,817 - DEBUG - botocore.configprovider - Looking for endpoint for s3 via: config_global
+2026-03-10 11:22:14,817 - DEBUG - botocore.configprovider - No configured endpoint found.
+2026-03-10 11:22:14,819 - DEBUG - botocore.endpoint - Setting s3 timeout as (60, 60)
+2026-03-10 11:22:14,836 - DEBUG - botocore.loaders - Loading JSON file: E:\AIML\PlantDoctor\.venv\Lib\site-packages\botocore\data\_retry.json
+2026-03-10 11:22:14,837 - DEBUG - botocore.client - Registering retry handlers for service: s3
+2026-03-10 11:22:14,837 - DEBUG - botocore.utils - Registering S3 region redirector handler
+2026-03-10 11:22:14,838 - DEBUG - botocore.utils - Registering S3Express Identity Resolver
+2026-03-10 11:22:15,064 - INFO - main - Existing model detected.
+2026-03-10 11:22:15,068 - DEBUG - app.utils.model_version - Current model versions: {'small': 'leaf_detection_model_small_v6.pth', 'medium': 'leaf_detection_model_medium_v1.pth', 'large': 'leaf_detection_model_large_v1.pth'}
+2026-03-10 11:22:15,068 - DEBUG - app.build.train.v1.load_model_v1 - Model path: E:\AIML\PlantDoctor\app\models\v1\leaf_detection_model_small_v6.pth
+2026-03-10 11:22:15,502 - INFO - app.build.train.v1.load_model_v1 - Model loaded successfully.
+2026-03-10 11:22:15,502 - INFO - app.utils.load_model_version - Initialized Small Model
+2026-03-10 11:23:12,722 - DEBUG - botocore.hooks - Changing event name from creating-client-class.iot-data to creating-client-class.iot-data-plane
+2026-03-10 11:23:12,722 - DEBUG - botocore.hooks - Changing event name from before-call.apigateway to before-call.api-gateway
+2026-03-10 11:23:12,722 - DEBUG - botocore.hooks - Changing event name from request-created.machinelearning.Predict to request-created.machine-learning.Predict
+2026-03-10 11:23:12,722 - DEBUG - botocore.hooks - Changing event name from before-parameter-build.autoscaling.CreateLaunchConfiguration to before-parameter-build.auto-scaling.CreateLaunchConfiguration
+2026-03-10 11:23:12,738 - DEBUG - botocore.hooks - Changing event name from before-parameter-build.route53 to before-parameter-build.route-53
+2026-03-10 11:23:12,739 - DEBUG - botocore.hooks - Changing event name from request-created.cloudsearchdomain.Search to request-created.cloudsearch-domain.Search
+2026-03-10 11:23:12,739 - DEBUG - botocore.hooks - Changing event name from docs.*.autoscaling.CreateLaunchConfiguration.complete-section to docs.*.auto-scaling.CreateLaunchConfiguration.complete-section
+2026-03-10 11:23:12,739 - DEBUG - botocore.hooks - Changing event name from before-parameter-build.logs.CreateExportTask to before-parameter-build.cloudwatch-logs.CreateExportTask
+2026-03-10 11:23:12,739 - DEBUG - botocore.hooks - Changing event name from docs.*.logs.CreateExportTask.complete-section to docs.*.cloudwatch-logs.CreateExportTask.complete-section
+2026-03-10 11:23:12,739 - DEBUG - botocore.hooks - Changing event name from before-parameter-build.cloudsearchdomain.Search to before-parameter-build.cloudsearch-domain.Search
+2026-03-10 11:23:12,739 - DEBUG - botocore.hooks - Changing event name from docs.*.cloudsearchdomain.Search.complete-section to docs.*.cloudsearch-domain.Search.complete-section
+2026-03-10 11:23:12,745 - DEBUG - botocore.loaders - Loading JSON file: E:\AIML\PlantDoctor\.venv\Lib\site-packages\botocore\data\endpoints.json
+2026-03-10 11:23:12,765 - DEBUG - botocore.loaders - Loading JSON file: E:\AIML\PlantDoctor\.venv\Lib\site-packages\botocore\data\sdk-default-configuration.json
+2026-03-10 11:23:12,765 - DEBUG - botocore.hooks - Event choose-service-name: calling handler <function handle_service_name_alias at 0x0000020EF763B560>
+2026-03-10 11:23:12,816 - DEBUG - botocore.loaders - Loading JSON file: E:\AIML\PlantDoctor\.venv\Lib\site-packages\botocore\data\s3\2006-03-01\service-2.json.gz
+2026-03-10 11:23:12,826 - DEBUG - botocore.loaders - Loading JSON file: E:\AIML\PlantDoctor\.venv\Lib\site-packages\botocore\data\s3\2006-03-01\service-2.sdk-extras.json
+2026-03-10 11:23:12,869 - DEBUG - botocore.loaders - Loading JSON file: E:\AIML\PlantDoctor\.venv\Lib\site-packages\botocore\data\s3\2006-03-01\endpoint-rule-set-1.json.gz
+2026-03-10 11:23:12,880 - DEBUG - botocore.loaders - Loading JSON file: E:\AIML\PlantDoctor\.venv\Lib\site-packages\botocore\data\partitions.json
+2026-03-10 11:23:12,883 - DEBUG - botocore.hooks - Event creating-client-class.s3: calling handler <function add_generate_presigned_post at 0x0000020EF75EA200>
+2026-03-10 11:23:12,883 - DEBUG - botocore.hooks - Event creating-client-class.s3: calling handler <function lazy_call.<locals>._handler at 0x0000020EF76EF100>
+2026-03-10 11:23:12,886 - DEBUG - botocore.hooks - Event creating-client-class.s3: calling handler <function add_generate_presigned_url at 0x0000020EF75E9F80>
+2026-03-10 11:23:12,886 - DEBUG - botocore.configprovider - Looking for endpoint for s3 via: environment_service
+2026-03-10 11:23:12,886 - DEBUG - botocore.configprovider - Looking for endpoint for s3 via: environment_global
+2026-03-10 11:23:12,886 - DEBUG - botocore.configprovider - Looking for endpoint for s3 via: config_service
+2026-03-10 11:23:12,886 - DEBUG - botocore.configprovider - Looking for endpoint for s3 via: config_global
+2026-03-10 11:23:12,890 - DEBUG - botocore.configprovider - No configured endpoint found.
+2026-03-10 11:23:12,891 - DEBUG - botocore.endpoint - Setting s3 timeout as (60, 60)
+2026-03-10 11:23:12,895 - DEBUG - botocore.loaders - Loading JSON file: E:\AIML\PlantDoctor\.venv\Lib\site-packages\botocore\data\_retry.json
+2026-03-10 11:23:12,895 - DEBUG - botocore.client - Registering retry handlers for service: s3
+2026-03-10 11:23:12,896 - DEBUG - botocore.utils - Registering S3 region redirector handler
+2026-03-10 11:23:12,896 - DEBUG - botocore.utils - Registering S3Express Identity Resolver
+2026-03-10 11:23:13,057 - INFO - main - Existing model detected.
+2026-03-10 11:23:13,057 - DEBUG - app.utils.model_version - Current model versions: {'small': 'leaf_detection_model_small_v6.pth', 'medium': 'leaf_detection_model_medium_v1.pth', 'large': 'leaf_detection_model_large_v1.pth'}
+2026-03-10 11:23:13,057 - DEBUG - app.build.train.v1.load_model_v1 - Model path: E:\AIML\PlantDoctor\app\models\v1\leaf_detection_model_small_v6.pth
+2026-03-10 11:23:13,282 - INFO - app.build.train.v1.load_model_v1 - Model loaded successfully.
+2026-03-10 11:23:13,282 - INFO - app.utils.load_model_version - Initialized Small Model
+2026-03-10 11:24:12,242 - INFO - main - Existing model detected.
+2026-03-10 11:24:12,242 - DEBUG - app.utils.model_version - Current model versions: {'small': 'leaf_detection_model_small_v6.pth', 'medium': 'leaf_detection_model_medium_v1.pth', 'large': 'leaf_detection_model_large_v1.pth'}
+2026-03-10 11:24:12,242 - DEBUG - app.build.train.v1.load_model_v1 - Model path: E:\AIML\PlantDoctor\app\models\v1\leaf_detection_model_small_v6.pth
+2026-03-10 11:24:12,453 - INFO - app.build.train.v1.load_model_v1 - Model loaded successfully.
+2026-03-10 11:24:12,453 - INFO - app.utils.load_model_version - Initialized Small Model
+2026-03-10 11:38:39,947 - INFO - main - Existing model detected.
+2026-03-10 11:38:39,954 - DEBUG - app.utils.model_version - Current model versions: {'small': 'leaf_detection_model_small_v6.pth', 'medium': 'leaf_detection_model_medium_v1.pth', 'large': 'leaf_detection_model_large_v1.pth'}
+2026-03-10 11:38:39,954 - DEBUG - app.build.train.v1.load_model_v1 - Model path: E:\AIML\PlantDoctor\app\models\v1\leaf_detection_model_small_v6.pth
+2026-03-10 11:38:40,541 - INFO - app.build.train.v1.load_model_v1 - Model loaded successfully.
+2026-03-10 11:38:40,541 - INFO - app.utils.load_model_version - Initialized Small Model
+2026-03-10 11:41:21,481 - INFO - main - Existing model detected.
+2026-03-10 11:41:21,492 - DEBUG - app.utils.model_version - Current model versions: {'small': 'leaf_detection_model_small_v6.pth', 'medium': 'leaf_detection_model_medium_v1.pth', 'large': 'leaf_detection_model_large_v1.pth'}
+2026-03-10 11:41:21,492 - DEBUG - app.build.train.v1.load_model_v1 - Model path: E:\AIML\PlantDoctor\app\models\v1\leaf_detection_model_small_v6.pth
+2026-03-10 11:41:21,957 - INFO - app.build.train.v1.load_model_v1 - Model loaded successfully.
+2026-03-10 11:41:21,957 - INFO - app.utils.load_model_version - Initialized Small Model
+2026-03-10 11:42:29,629 - INFO - main - Existing model detected.
+2026-03-10 11:42:29,632 - DEBUG - app.utils.model_version - Current model versions: {'small': 'leaf_detection_model_small_v6.pth', 'medium': 'leaf_detection_model_medium_v1.pth', 'large': 'leaf_detection_model_large_v1.pth'}
+2026-03-10 11:42:29,632 - DEBUG - app.build.train.v1.load_model_v1 - Model path: E:\AIML\PlantDoctor\app\models\v1\leaf_detection_model_small_v6.pth
+2026-03-10 11:42:30,054 - INFO - app.build.train.v1.load_model_v1 - Model loaded successfully.
+2026-03-10 11:42:30,054 - INFO - app.utils.load_model_version - Initialized Small Model
+2026-03-10 11:43:57,958 - WARNING - celery.backends.redis - 
+Setting ssl_cert_reqs=CERT_NONE when connecting to redis means that celery will not validate the identity of the redis broker when connecting. This leaves you vulnerable to man in the middle attacks.
+
+2026-03-10 11:53:38,043 - INFO - main - Existing model detected.
+2026-03-10 11:53:38,047 - DEBUG - app.utils.model_version - Current model versions: {'small': 'leaf_detection_model_small_v6.pth', 'medium': 'leaf_detection_model_medium_v1.pth', 'large': 'leaf_detection_model_large_v1.pth'}
+2026-03-10 11:53:38,047 - DEBUG - app.build.train.v1.load_model_v1 - Model path: E:\AIML\PlantDoctor\app\models\v1\leaf_detection_model_small_v6.pth
+2026-03-10 11:53:38,588 - INFO - app.build.train.v1.load_model_v1 - Model loaded successfully.
+2026-03-10 11:53:38,588 - INFO - app.utils.load_model_version - Initialized Small Model
+2026-03-10 11:53:59,921 - INFO - app.routers.v2.routes - Image url: https://backend-lifelet.s3.ap-south-1.amazonaws.com/Uploaded images/5adbeb6c-e024-41d3-88c3-ff2ae34e9bc7-Gray_Leaf_Spot (3).JPG
+2026-03-10 11:54:00,334 - WARNING - celery.backends.redis - 
+Setting ssl_cert_reqs=CERT_NONE when connecting to redis means that celery will not validate the identity of the redis broker when connecting. This leaves you vulnerable to man in the middle attacks.
+
+2026-03-10 11:59:21,749 - INFO - main - Existing model detected.
+2026-03-10 11:59:21,751 - DEBUG - app.utils.model_version - Current model versions: {'small': 'leaf_detection_model_small_v6.pth', 'medium': 'leaf_detection_model_medium_v1.pth', 'large': 'leaf_detection_model_large_v1.pth'}
+2026-03-10 11:59:21,751 - DEBUG - app.build.train.v1.load_model_v1 - Model path: E:\AIML\PlantDoctor\app\models\v1\leaf_detection_model_small_v6.pth
+2026-03-10 11:59:22,285 - INFO - app.build.train.v1.load_model_v1 - Model loaded successfully.
+2026-03-10 11:59:22,285 - INFO - app.utils.load_model_version - Initialized Small Model
+2026-03-10 11:59:36,239 - INFO - app.routers.v2.routes - Image url: https://backend-lifelet.s3.ap-south-1.amazonaws.com/uploaded_images/5afddc7d-bae4-4f14-9b95-0d84d277f0c2-Gray_Leaf_Spot (3).JPG
+2026-03-10 11:59:36,515 - WARNING - celery.backends.redis - 
+Setting ssl_cert_reqs=CERT_NONE when connecting to redis means that celery will not validate the identity of the redis broker when connecting. This leaves you vulnerable to man in the middle attacks.
+
+2026-03-10 12:02:18,608 - INFO - main - Existing model detected.
+2026-03-10 12:02:18,612 - DEBUG - app.utils.model_version - Current model versions: {'small': 'leaf_detection_model_small_v6.pth', 'medium': 'leaf_detection_model_medium_v1.pth', 'large': 'leaf_detection_model_large_v1.pth'}
+2026-03-10 12:02:18,612 - DEBUG - app.build.train.v1.load_model_v1 - Model path: E:\AIML\PlantDoctor\app\models\v1\leaf_detection_model_small_v6.pth
+2026-03-10 12:02:19,169 - INFO - app.build.train.v1.load_model_v1 - Model loaded successfully.
+2026-03-10 12:02:19,171 - INFO - app.utils.load_model_version - Initialized Small Model
+2026-03-10 12:02:49,725 - INFO - app.routers.v2.routes - Image url: https://backend-lifelet.s3.ap-south-1.amazonaws.com/uploaded_images/9d19dd18-93dc-4251-ac41-80630716c180-Gray_Leaf_Spot (3).JPG
+2026-03-10 12:02:49,923 - WARNING - celery.backends.redis - 
+Setting ssl_cert_reqs=CERT_NONE when connecting to redis means that celery will not validate the identity of the redis broker when connecting. This leaves you vulnerable to man in the middle attacks.
+
+2026-03-10 12:04:42,431 - INFO - main - Existing model detected.
+2026-03-10 12:04:42,431 - DEBUG - app.utils.model_version - Current model versions: {'small': 'leaf_detection_model_small_v6.pth', 'medium': 'leaf_detection_model_medium_v1.pth', 'large': 'leaf_detection_model_large_v1.pth'}
+2026-03-10 12:04:42,431 - DEBUG - app.build.train.v1.load_model_v1 - Model path: E:\AIML\PlantDoctor\app\models\v1\leaf_detection_model_small_v6.pth
+2026-03-10 12:04:42,875 - INFO - app.build.train.v1.load_model_v1 - Model loaded successfully.
+2026-03-10 12:04:42,875 - INFO - app.utils.load_model_version - Initialized Small Model
+2026-03-10 12:19:01,169 - INFO - main - Existing model detected.
+2026-03-10 12:19:01,177 - DEBUG - app.utils.model_version - Current model versions: {'small': 'leaf_detection_model_small_v6.pth', 'medium': 'leaf_detection_model_medium_v1.pth', 'large': 'leaf_detection_model_large_v1.pth'}
+2026-03-10 12:19:01,177 - DEBUG - app.build.train.v1.load_model_v1 - Model path: E:\AIML\PlantDoctor\app\models\v1\leaf_detection_model_small_v6.pth
+2026-03-10 12:19:01,721 - INFO - app.build.train.v1.load_model_v1 - Model loaded successfully.
+2026-03-10 12:19:01,721 - INFO - app.utils.load_model_version - Initialized Small Model
+2026-03-10 12:20:54,842 - INFO - main - Existing model detected.
+2026-03-10 12:20:54,850 - DEBUG - app.utils.model_version - Current model versions: {'small': 'leaf_detection_model_small_v6.pth', 'medium': 'leaf_detection_model_medium_v1.pth', 'large': 'leaf_detection_model_large_v1.pth'}
+2026-03-10 12:20:54,850 - DEBUG - app.build.train.v1.load_model_v1 - Model path: E:\AIML\PlantDoctor\app\models\v1\leaf_detection_model_small_v6.pth
+2026-03-10 12:20:55,433 - INFO - app.build.train.v1.load_model_v1 - Model loaded successfully.
+2026-03-10 12:20:55,433 - INFO - app.utils.load_model_version - Initialized Small Model
+2026-03-10 12:21:47,551 - INFO - main - Existing model detected.
+2026-03-10 12:21:47,568 - DEBUG - app.utils.model_version - Current model versions: {'small': 'leaf_detection_model_small_v6.pth', 'medium': 'leaf_detection_model_medium_v1.pth', 'large': 'leaf_detection_model_large_v1.pth'}
+2026-03-10 12:21:47,568 - DEBUG - app.build.train.v1.load_model_v1 - Model path: E:\AIML\PlantDoctor\app\models\v1\leaf_detection_model_small_v6.pth
+2026-03-10 12:21:47,977 - INFO - app.build.train.v1.load_model_v1 - Model loaded successfully.
+2026-03-10 12:21:47,977 - INFO - app.utils.load_model_version - Initialized Small Model
+2026-03-10 12:22:44,853 - INFO - main - Existing model detected.
+2026-03-10 12:22:44,866 - DEBUG - app.utils.model_version - Current model versions: {'small': 'leaf_detection_model_small_v6.pth', 'medium': 'leaf_detection_model_medium_v1.pth', 'large': 'leaf_detection_model_large_v1.pth'}
+2026-03-10 12:22:44,866 - DEBUG - app.build.train.v1.load_model_v1 - Model path: E:\AIML\PlantDoctor\app\models\v1\leaf_detection_model_small_v6.pth
+2026-03-10 12:22:45,845 - INFO - app.build.train.v1.load_model_v1 - Model loaded successfully.
+2026-03-10 12:22:45,847 - INFO - app.utils.load_model_version - Initialized Small Model
+2026-03-10 12:32:01,237 - INFO - main - Existing model detected.
+2026-03-10 12:32:01,243 - DEBUG - app.utils.model_version - Current model versions: {'small': 'leaf_detection_model_small_v6.pth', 'medium': 'leaf_detection_model_medium_v1.pth', 'large': 'leaf_detection_model_large_v1.pth'}
+2026-03-10 12:32:01,243 - DEBUG - app.build.train.v1.load_model_v1 - Model path: E:\AIML\PlantDoctor\app\models\v1\leaf_detection_model_small_v6.pth
+2026-03-10 12:32:01,769 - INFO - app.build.train.v1.load_model_v1 - Model loaded successfully.
+2026-03-10 12:32:01,769 - INFO - app.utils.load_model_version - Initialized Small Model
+2026-03-10 12:33:36,492 - INFO - main - Existing model detected.
+2026-03-10 12:33:36,493 - DEBUG - app.utils.model_version - Current model versions: {'small': 'leaf_detection_model_small_v6.pth', 'medium': 'leaf_detection_model_medium_v1.pth', 'large': 'leaf_detection_model_large_v1.pth'}
+2026-03-10 12:33:36,496 - DEBUG - app.build.train.v1.load_model_v1 - Model path: E:\AIML\PlantDoctor\app\models\v1\leaf_detection_model_small_v6.pth
+2026-03-10 12:33:36,876 - INFO - app.build.train.v1.load_model_v1 - Model loaded successfully.
+2026-03-10 12:33:36,876 - INFO - app.utils.load_model_version - Initialized Small Model
+2026-03-10 15:22:48,828 - INFO - main - Existing model detected.
+2026-03-10 15:22:48,844 - DEBUG - app.utils.model_version - Current model versions: {'small': 'leaf_detection_model_small_v6.pth', 'medium': 'leaf_detection_model_medium_v1.pth', 'large': 'leaf_detection_model_large_v1.pth'}
+2026-03-10 15:22:48,844 - DEBUG - app.build.train.v1.load_model_v1 - Model path: E:\AIML\PlantDoctor\app\models\v1\leaf_detection_model_small_v6.pth
+2026-03-10 15:22:49,418 - INFO - app.build.train.v1.load_model_v1 - Model loaded successfully.
+2026-03-10 15:22:49,423 - INFO - app.utils.load_model_version - Initialized Small Model
+2026-03-10 15:24:06,890 - INFO - app.routers.v2.routes - Image url: https://chaarvy-images.s3.ap-south-1.amazonaws.com/uploaded_images/b95dc982-32a8-4df7-b533-f42a28be6539-Gray_Leaf_Spot (3).JPG
+2026-03-10 15:24:07,194 - WARNING - celery.backends.redis - 
+Setting ssl_cert_reqs=CERT_NONE when connecting to redis means that celery will not validate the identity of the redis broker when connecting. This leaves you vulnerable to man in the middle attacks.
+
+2026-03-10 15:28:31,058 - INFO - app.routers.v2.routes - Image url: https://chaarvy-images.s3.ap-south-1.amazonaws.com/uploaded_images/3f5829ad-a172-48a1-b7ed-74b48dcbe952-Gray_Leaf_Spot (3).JPG
+2026-03-10 15:31:56,788 - INFO - app.routers.v2.routes - Image url: https://chaarvy-images.s3.ap-south-1.amazonaws.com/uploaded_images/f518b9c5-b6ca-46bb-b599-bab1fb4c411d-Gray_Leaf_Spot (3).JPG
+2026-03-10 15:33:15,411 - INFO - app.routers.v2.routes - Image url: https://chaarvy-images.s3.ap-south-1.amazonaws.com/uploaded_images/5befdc4e-f260-4663-b8d2-a4cba5e40594-Gray_Leaf_Spot (3).JPG
+2026-03-10 15:35:22,345 - INFO - app.routers.v2.routes - Image url: https://chaarvy-images.s3.ap-south-1.amazonaws.com/uploaded_images/6b46ff64-3639-4436-ab56-3ce1eb93d36c-Gray_Leaf_Spot (3).JPG

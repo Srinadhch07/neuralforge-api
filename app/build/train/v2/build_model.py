@@ -7,6 +7,7 @@ from .preprocess import train_data, test_data
 
 logger = logging.getLogger(__name__)
 
+logger.info("TRANINIG LARGE MODEL")
 # Extracting dataset clasess
 classes = train_data.class_to_idx
 modified_class = {v:k for k,v in classes.items()}

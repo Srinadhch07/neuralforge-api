@@ -1,0 +1,71 @@
+{
+    "diseases": {
+        "name": "Lepidoptera",
+        "probability": 0.017,
+        "similar_images": [
+            {
+                "id": "45f9a2637f256f421dd93088c26f48eb4a81db7d",
+                "url": "https://plant-id.ams3.cdn.digitaloceanspaces.com/similar_images/5/45f/9a2637f256f421dd93088c26f48eb4a81db7d.jpg",
+                "license_name": "CC BY 3.0",
+                "license_url": "https://creativecommons.org/licenses/by/3.0/",
+                "citation": "Lacy L. Hyche, Auburn University",
+                "similarity": 0.288,
+                "url_small": "https://plant-id.ams3.cdn.digitaloceanspaces.com/similar_images/5/45f/9a2637f256f421dd93088c26f48eb4a81db7d.small.jpg"
+            },
+            {
+                "id": "71c217a9e77b1b66d2e236d6d2300684815007ad",
+                "url": "https://plant-id.ams3.cdn.digitaloceanspaces.com/similar_images/5/71c/217a9e77b1b66d2e236d6d2300684815007ad.jpg",
+                "license_name": "CC BY 3.0",
+                "license_url": "https://creativecommons.org/licenses/by/3.0/",
+                "citation": "Whitney Cranshaw, Colorado State University",
+                "similarity": 0.266,
+                "url_small": "https://plant-id.ams3.cdn.digitaloceanspaces.com/similar_images/5/71c/217a9e77b1b66d2e236d6d2300684815007ad.small.jpg"
+            }
+        ],
+        "entity_id": 84787544,
+        "disease_details": {
+            "local_name": "Lepidoptera",
+            "description": "Lepidoptera are butterflies and moths. Their larvae (caterpillars) are the stage that damages plants. Caterpillars chew leaves, flowers, and fruit, leaving ragged holes, missing leaf edges, rolled or webbed leaves, and dark droppings (frass). Some species bore into fruit or stems. You might notice adults flying at dusk or see tiny eggs on the undersides of leaves. Many plants can be affected, including vegetables (especially Brassicas and tomatoes), herbs, roses, perennials, and fruit trees.",
+            "url": "https://en.wikipedia.org/wiki/Lepidoptera",
+            "treatment": {
+                "chemical": [
+                    "Apply treatments in late afternoon or evening, target young larvae, and avoid spraying open flowers to protect pollinators.",
+                    "Apply Bacillus thuringiensis var. kurstaki or var. aizawai to target young caterpillars.",
+                    "Apply spinosad for chewing larvae, and avoid direct contact with bees.",
+                    "Apply azadirachtin as a growth regulator and feeding deterrent for young larvae."
+                ],
+                "biological": [
+                    "Inspect plants often, hand-pick caterpillars and egg clusters, and drop them into soapy water.",
+                    "Prune out rolled or webbed leaves that shelter larvae.",
+                    "Use floating row covers to block egg-laying on young plants, and remove them during flowering if pollination is needed.",
+                    "Keep the area clean by removing weeds and plant debris where pupae can overwinter.",
+                    "Encourage natural enemies by planting nectar sources and avoiding broad-spectrum sprays, and release small parasitic wasps such as Trichogramma to target eggs.",
+                    "Use pheromone traps to monitor specific moth species and, where available, to implement mating disruption in orchards."
+                ],
+                "prevention": [
+                    "Check plants weekly, inspect leaf undersides, and remove eggs early.",
+                    "Use row covers on seedlings and recent transplants during peak moth activity.",
+                    "Stagger or time plantings to avoid known pest peaks in your area.",
+                    "Control nearby weeds and volunteer host plants that harbor caterpillars.",
+                    "After harvest, remove crop residues and lightly disturb the soil surface to reduce overwintering stages.",
+                    "Maintain plant diversity with flowering plants to support natural enemies, and avoid unnecessary broad-spectrum insecticides."
+                ]
+            },
+            "classification": [],
+            "common_names": [
+                "Moths",
+                "Butterflies and Moths",
+                "Caterpillars",
+                "Butterflies",
+                "Butterflies & Moths",
+                "Invertebrates (Butterflies)",
+                "Invertebrates (Moths)",
+                "Lepidopterans",
+                "Leps",
+                "Unidentified Lepidopteran"
+            ],
+            "cause": null,
+            "language": "en"
+        }
+    }
+}

@@ -13,18 +13,19 @@ BASE_DIR = Path(__file__).resolve().parent.parent.parent
 logs_dir = BASE_DIR / "logs"
 
 def init_logging_system():
-    print("Logs directory will be:", logs_dir)
-
+    print("Initiated Log System @",logs_dir)
     logs_dir.mkdir(parents=True, exist_ok=True)
-
     logger = logging.getLogger()
     logger.setLevel(getattr(logging, LOG_LEVEL))
-    
+
     # Get only warnings
     logging.getLogger("python_multipart").setLevel(logging.WARNING)
-    # logging.getLogger("celery").setLevel(logging.WARNING)
+    logging.getLogger("celery").setLevel(logging.WARNING)
+    logging.getLogger("celery").setLevel(logging.INFO)
+    logging.getLogger("app").setLevel(logging.DEBUG)
     logging.getLogger("pymongo").setLevel(logging.WARNING)
     logging.getLogger("urllib3").setLevel(logging.WARNING)
+    logging.getLogger("botocore").setLevel(logging.WARNING)
 
     formatter = logging.Formatter(
         "%(asctime)s - %(levelname)s - %(name)s - %(message)s"
@@ -45,5 +46,3 @@ def init_logging_system():
     if not logger.handlers:
         logger.addHandler(console_handler)
         logger.addHandler(file_handler)
-
-init_logging_system()

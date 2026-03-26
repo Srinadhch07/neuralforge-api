@@ -2,9 +2,9 @@
 notes.txt
 .venv/
 __pycache__/
-data/
 uploads/
 sample_dataset/
 temp_uploads/
 uploads/
 datasets/
+

@@ -1,27 +1,284 @@
-2026-03-05 11:59:05,754 - DEBUG - app.utils.model_version - leaf_detection_model_v1.pth
-2026-03-05 11:59:05,757 - DEBUG - app.build.load_model_v1 - Model path: E:\AIML\PlantDoctor\app\models\leaf_detection_model_v1.pth
-2026-03-05 11:59:06,434 - INFO - app.build.load_model_v1 - Model loaded successfully.
-2026-03-05 11:59:12,428 - INFO - app.utils.model_version - Existing model detected.
-2026-03-05 11:59:46,697 - DEBUG - app.utils.model_version - leaf_detection_model_v1.pth
-2026-03-05 11:59:46,697 - DEBUG - app.build.load_model_v1 - Model path: E:\AIML\PlantDoctor\app\models\leaf_detection_model_v1.pth
-2026-03-05 11:59:47,091 - INFO - app.build.load_model_v1 - Model loaded successfully.
-2026-03-05 11:59:47,540 - INFO - app.utils.model_version - Existing model detected.
-2026-03-05 15:23:20,124 - DEBUG - app.utils.model_version - leaf_detection_model_v1.pth
-2026-03-05 15:23:20,124 - DEBUG - app.build.load_model_v1 - Model path: E:\AIML\PlantDoctor\app\models\leaf_detection_model_v1.pth
-2026-03-05 15:23:20,699 - INFO - app.build.load_model_v1 - Model loaded successfully.
-2026-03-05 15:23:21,268 - INFO - app.utils.model_version - Existing model detected.
-2026-03-05 15:26:26,068 - DEBUG - celery.utils.functional - 
-def upload_dataset_task(self, zip_path):
-    return 1
-
-2026-03-05 15:26:26,373 - WARNING - celery.backends.redis - 
+2026-03-11 11:19:39,320 - INFO - main - Existing model detected.
+2026-03-11 11:19:39,324 - DEBUG - app.utils.model_version - Current model versions: {'small': 'leaf_detection_model_small_v6.pth', 'medium': 'leaf_detection_model_medium_v1.pth', 'large': 'leaf_detection_model_large_v1.pth'}
+2026-03-11 11:19:39,324 - DEBUG - app.build.train.v1.load_model_v1 - Model path: E:\AIML\PlantDoctor\app\models\v1\leaf_detection_model_small_v6.pth
+2026-03-11 11:19:39,791 - INFO - app.build.train.v1.load_model_v1 - Model loaded successfully.
+2026-03-11 11:19:39,791 - INFO - app.utils.load_model_version - Initialized Small Model
+2026-03-11 11:20:59,717 - INFO - main - Existing model detected.
+2026-03-11 11:20:59,722 - DEBUG - app.utils.model_version - Current model versions: {'small': 'leaf_detection_model_small_v6.pth', 'medium': 'leaf_detection_model_medium_v1.pth', 'large': 'leaf_detection_model_large_v1.pth'}
+2026-03-11 11:20:59,722 - DEBUG - app.build.train.v1.load_model_v1 - Model path: E:\AIML\PlantDoctor\app\models\v1\leaf_detection_model_small_v6.pth
+2026-03-11 11:21:00,065 - INFO - app.build.train.v1.load_model_v1 - Model loaded successfully.
+2026-03-11 11:21:00,065 - INFO - app.utils.load_model_version - Initialized Small Model
+2026-03-11 11:28:48,957 - INFO - main - Existing model detected.
+2026-03-11 11:28:48,972 - DEBUG - app.utils.model_version - Current model versions: {'small': 'leaf_detection_model_small_v6.pth', 'medium': 'leaf_detection_model_medium_v1.pth', 'large': 'leaf_detection_model_large_v1.pth'}
+2026-03-11 11:28:48,972 - DEBUG - app.build.train.v1.load_model_v1 - Model path: E:\AIML\PlantDoctor\app\models\v1\leaf_detection_model_small_v6.pth
+2026-03-11 11:28:49,284 - INFO - app.build.train.v1.load_model_v1 - Model loaded successfully.
+2026-03-11 11:28:49,285 - INFO - app.utils.load_model_version - Initialized Small Model
+2026-03-11 12:07:45,264 - INFO - main - Existing model detected.
+2026-03-11 12:07:45,264 - DEBUG - app.utils.model_version - Current model versions: {'small': 'leaf_detection_model_small_v6.pth', 'medium': 'leaf_detection_model_medium_v1.pth', 'large': 'leaf_detection_model_large_v1.pth'}
+2026-03-11 12:07:45,264 - DEBUG - app.build.train.v1.load_model_v1 - Model path: E:\AIML\PlantDoctor\app\models\v1\leaf_detection_model_small_v6.pth
+2026-03-11 12:07:45,677 - INFO - app.build.train.v1.load_model_v1 - Model loaded successfully.
+2026-03-11 12:07:45,677 - INFO - app.utils.load_model_version - Initialized Small Model
+2026-03-11 12:10:44,000 - INFO - main - Existing model detected.
+2026-03-11 12:10:44,000 - DEBUG - app.utils.model_version - Current model versions: {'small': 'leaf_detection_model_small_v6.pth', 'medium': 'leaf_detection_model_medium_v1.pth', 'large': 'leaf_detection_model_large_v1.pth'}
+2026-03-11 12:10:44,000 - DEBUG - app.build.train.v1.load_model_v1 - Model path: E:\AIML\PlantDoctor\app\models\v1\leaf_detection_model_small_v6.pth
+2026-03-11 12:10:44,269 - INFO - app.build.train.v1.load_model_v1 - Model loaded successfully.
+2026-03-11 12:10:44,269 - INFO - app.utils.load_model_version - Initialized Small Model
+2026-03-11 12:12:45,341 - INFO - main - Existing model detected.
+2026-03-11 12:12:45,346 - DEBUG - app.utils.model_version - Current model versions: {'small': 'leaf_detection_model_small_v6.pth', 'medium': 'leaf_detection_model_medium_v1.pth', 'large': 'leaf_detection_model_large_v1.pth'}
+2026-03-11 12:12:45,347 - DEBUG - app.build.train.v1.load_model_v1 - Model path: E:\AIML\PlantDoctor\app\models\v1\leaf_detection_model_small_v6.pth
+2026-03-11 12:12:45,663 - INFO - app.build.train.v1.load_model_v1 - Model loaded successfully.
+2026-03-11 12:12:45,663 - INFO - app.utils.load_model_version - Initialized Small Model
+2026-03-11 12:22:34,330 - INFO - main - Existing model detected.
+2026-03-11 12:22:34,333 - DEBUG - app.utils.model_version - Current model versions: {'small': 'leaf_detection_model_small_v6.pth', 'medium': 'leaf_detection_model_medium_v1.pth', 'large': 'leaf_detection_model_large_v1.pth'}
+2026-03-11 12:22:34,334 - DEBUG - app.build.train.v1.load_model_v1 - Model path: E:\AIML\PlantDoctor\app\models\v1\leaf_detection_model_small_v6.pth
+2026-03-11 12:22:34,741 - INFO - app.build.train.v1.load_model_v1 - Model loaded successfully.
+2026-03-11 12:22:34,742 - INFO - app.utils.load_model_version - Initialized Small Model
+2026-03-11 12:25:39,245 - INFO - main - Existing model detected.
+2026-03-11 12:25:39,245 - DEBUG - app.utils.model_version - Current model versions: {'small': 'leaf_detection_model_small_v6.pth', 'medium': 'leaf_detection_model_medium_v1.pth', 'large': 'leaf_detection_model_large_v1.pth'}
+2026-03-11 12:25:39,261 - DEBUG - app.build.train.v1.load_model_v1 - Model path: E:\AIML\PlantDoctor\app\models\v1\leaf_detection_model_small_v6.pth
+2026-03-11 12:25:39,701 - INFO - app.build.train.v1.load_model_v1 - Model loaded successfully.
+2026-03-11 12:25:39,701 - INFO - app.utils.load_model_version - Initialized Small Model
+2026-03-11 12:29:34,306 - INFO - main - Existing model detected.
+2026-03-11 12:29:34,306 - DEBUG - app.utils.model_version - Current model versions: {'small': 'leaf_detection_model_small_v6.pth', 'medium': 'leaf_detection_model_medium_v1.pth', 'large': 'leaf_detection_model_large_v1.pth'}
+2026-03-11 12:29:34,306 - DEBUG - app.build.train.v1.load_model_v1 - Model path: E:\AIML\PlantDoctor\app\models\v1\leaf_detection_model_small_v6.pth
+2026-03-11 12:29:34,521 - INFO - app.build.train.v1.load_model_v1 - Model loaded successfully.
+2026-03-11 12:29:34,521 - INFO - app.utils.load_model_version - Initialized Small Model
+2026-03-11 12:30:50,768 - INFO - main - Existing model detected.
+2026-03-11 12:30:50,776 - DEBUG - app.utils.model_version - Current model versions: {'small': 'leaf_detection_model_small_v6.pth', 'medium': 'leaf_detection_model_medium_v1.pth', 'large': 'leaf_detection_model_large_v1.pth'}
+2026-03-11 12:30:50,778 - DEBUG - app.build.train.v1.load_model_v1 - Model path: E:\AIML\PlantDoctor\app\models\v1\leaf_detection_model_small_v6.pth
+2026-03-11 12:30:51,014 - INFO - app.build.train.v1.load_model_v1 - Model loaded successfully.
+2026-03-11 12:30:51,016 - INFO - app.utils.load_model_version - Initialized Small Model
+2026-03-11 12:35:51,548 - INFO - main - Existing model detected.
+2026-03-11 12:35:51,561 - DEBUG - app.utils.model_version - Current model versions: {'small': 'leaf_detection_model_small_v6.pth', 'medium': 'leaf_detection_model_medium_v1.pth', 'large': 'leaf_detection_model_large_v1.pth'}
+2026-03-11 12:35:51,562 - DEBUG - app.build.train.v1.load_model_v1 - Model path: E:\AIML\PlantDoctor\app\models\v1\leaf_detection_model_small_v6.pth
+2026-03-11 12:35:51,807 - INFO - app.build.train.v1.load_model_v1 - Model loaded successfully.
+2026-03-11 12:35:51,807 - INFO - app.utils.load_model_version - Initialized Small Model
+2026-03-11 12:36:10,176 - INFO - main - Existing model detected.
+2026-03-11 12:36:10,179 - DEBUG - app.utils.model_version - Current model versions: {'small': 'leaf_detection_model_small_v6.pth', 'medium': 'leaf_detection_model_medium_v1.pth', 'large': 'leaf_detection_model_large_v1.pth'}
+2026-03-11 12:36:10,179 - DEBUG - app.build.train.v1.load_model_v1 - Model path: E:\AIML\PlantDoctor\app\models\v1\leaf_detection_model_small_v6.pth
+2026-03-11 12:36:10,413 - INFO - app.build.train.v1.load_model_v1 - Model loaded successfully.
+2026-03-11 12:36:10,413 - INFO - app.utils.load_model_version - Initialized Small Model
+2026-03-11 12:37:13,673 - INFO - main - Existing model detected.
+2026-03-11 12:37:13,673 - DEBUG - app.utils.model_version - Current model versions: {'small': 'leaf_detection_model_small_v6.pth', 'medium': 'leaf_detection_model_medium_v1.pth', 'large': 'leaf_detection_model_large_v1.pth'}
+2026-03-11 12:37:13,673 - DEBUG - app.build.train.v1.load_model_v1 - Model path: E:\AIML\PlantDoctor\app\models\v1\leaf_detection_model_small_v6.pth
+2026-03-11 12:37:13,904 - INFO - app.build.train.v1.load_model_v1 - Model loaded successfully.
+2026-03-11 12:37:13,906 - INFO - app.utils.load_model_version - Initialized Small Model
+2026-03-11 12:37:52,686 - INFO - main - Existing model detected.
+2026-03-11 12:37:52,686 - DEBUG - app.utils.model_version - Current model versions: {'small': 'leaf_detection_model_small_v6.pth', 'medium': 'leaf_detection_model_medium_v1.pth', 'large': 'leaf_detection_model_large_v1.pth'}
+2026-03-11 12:37:52,686 - DEBUG - app.build.train.v1.load_model_v1 - Model path: E:\AIML\PlantDoctor\app\models\v1\leaf_detection_model_small_v6.pth
+2026-03-11 12:37:52,916 - INFO - app.build.train.v1.load_model_v1 - Model loaded successfully.
+2026-03-11 12:37:52,918 - INFO - app.utils.load_model_version - Initialized Small Model
+2026-03-11 12:38:22,855 - INFO - main - Existing model detected.
+2026-03-11 12:38:22,857 - DEBUG - app.utils.model_version - Current model versions: {'small': 'leaf_detection_model_small_v6.pth', 'medium': 'leaf_detection_model_medium_v1.pth', 'large': 'leaf_detection_model_large_v1.pth'}
+2026-03-11 12:38:22,857 - DEBUG - app.build.train.v1.load_model_v1 - Model path: E:\AIML\PlantDoctor\app\models\v1\leaf_detection_model_small_v6.pth
+2026-03-11 12:38:23,116 - INFO - app.build.train.v1.load_model_v1 - Model loaded successfully.
+2026-03-11 12:38:23,116 - INFO - app.utils.load_model_version - Initialized Small Model
+2026-03-11 12:39:25,251 - INFO - main - Existing model detected.
+2026-03-11 12:39:25,251 - DEBUG - app.utils.model_version - Current model versions: {'small': 'leaf_detection_model_small_v6.pth', 'medium': 'leaf_detection_model_medium_v1.pth', 'large': 'leaf_detection_model_large_v1.pth'}
+2026-03-11 12:39:25,251 - DEBUG - app.build.train.v1.load_model_v1 - Model path: E:\AIML\PlantDoctor\app\models\v1\leaf_detection_model_small_v6.pth
+2026-03-11 12:39:25,553 - INFO - app.build.train.v1.load_model_v1 - Model loaded successfully.
+2026-03-11 12:39:25,553 - INFO - app.utils.load_model_version - Initialized Small Model
+2026-03-11 12:42:31,457 - INFO - main - Existing model detected.
+2026-03-11 12:42:31,459 - DEBUG - app.utils.model_version - Current model versions: {'small': 'leaf_detection_model_small_v6.pth', 'medium': 'leaf_detection_model_medium_v1.pth', 'large': 'leaf_detection_model_large_v1.pth'}
+2026-03-11 12:42:31,459 - DEBUG - app.build.train.v1.load_model_v1 - Model path: E:\AIML\PlantDoctor\app\models\v1\leaf_detection_model_small_v6.pth
+2026-03-11 12:42:31,796 - INFO - app.build.train.v1.load_model_v1 - Model loaded successfully.
+2026-03-11 12:42:31,796 - INFO - app.utils.load_model_version - Initialized Small Model
+2026-03-11 12:42:39,978 - INFO - main - Existing model detected.
+2026-03-11 12:42:39,980 - DEBUG - app.utils.model_version - Current model versions: {'small': 'leaf_detection_model_small_v6.pth', 'medium': 'leaf_detection_model_medium_v1.pth', 'large': 'leaf_detection_model_large_v1.pth'}
+2026-03-11 12:42:39,980 - DEBUG - app.build.train.v1.load_model_v1 - Model path: E:\AIML\PlantDoctor\app\models\v1\leaf_detection_model_small_v6.pth
+2026-03-11 12:42:40,226 - INFO - app.build.train.v1.load_model_v1 - Model loaded successfully.
+2026-03-11 12:42:40,228 - INFO - app.utils.load_model_version - Initialized Small Model
+2026-03-11 12:42:56,806 - INFO - main - Existing model detected.
+2026-03-11 12:42:56,811 - DEBUG - app.utils.model_version - Current model versions: {'small': 'leaf_detection_model_small_v6.pth', 'medium': 'leaf_detection_model_medium_v1.pth', 'large': 'leaf_detection_model_large_v1.pth'}
+2026-03-11 12:42:56,814 - DEBUG - app.build.train.v1.load_model_v1 - Model path: E:\AIML\PlantDoctor\app\models\v1\leaf_detection_model_small_v6.pth
+2026-03-11 12:42:57,182 - INFO - app.build.train.v1.load_model_v1 - Model loaded successfully.
+2026-03-11 12:42:57,183 - INFO - app.utils.load_model_version - Initialized Small Model
+2026-03-11 12:43:01,899 - INFO - app.services.dataset_services - Backup completed
+2026-03-11 12:44:25,525 - INFO - main - Existing model detected.
+2026-03-11 12:44:25,541 - DEBUG - app.utils.model_version - Current model versions: {'small': 'leaf_detection_model_small_v6.pth', 'medium': 'leaf_detection_model_medium_v1.pth', 'large': 'leaf_detection_model_large_v1.pth'}
+2026-03-11 12:44:25,541 - DEBUG - app.build.train.v1.load_model_v1 - Model path: E:\AIML\PlantDoctor\app\models\v1\leaf_detection_model_small_v6.pth
+2026-03-11 12:44:25,779 - INFO - app.build.train.v1.load_model_v1 - Model loaded successfully.
+2026-03-11 12:44:25,780 - INFO - app.utils.load_model_version - Initialized Small Model
+2026-03-11 12:45:39,622 - INFO - main - Existing model detected.
+2026-03-11 12:45:39,624 - DEBUG - app.utils.model_version - Current model versions: {'small': 'leaf_detection_model_small_v6.pth', 'medium': 'leaf_detection_model_medium_v1.pth', 'large': 'leaf_detection_model_large_v1.pth'}
+2026-03-11 12:45:39,624 - DEBUG - app.build.train.v1.load_model_v1 - Model path: E:\AIML\PlantDoctor\app\models\v1\leaf_detection_model_small_v6.pth
+2026-03-11 12:45:39,868 - INFO - app.build.train.v1.load_model_v1 - Model loaded successfully.
+2026-03-11 12:45:39,870 - INFO - app.utils.load_model_version - Initialized Small Model
+2026-03-11 12:45:49,243 - INFO - main - Existing model detected.
+2026-03-11 12:45:49,243 - DEBUG - app.utils.model_version - Current model versions: {'small': 'leaf_detection_model_small_v6.pth', 'medium': 'leaf_detection_model_medium_v1.pth', 'large': 'leaf_detection_model_large_v1.pth'}
+2026-03-11 12:45:49,243 - DEBUG - app.build.train.v1.load_model_v1 - Model path: E:\AIML\PlantDoctor\app\models\v1\leaf_detection_model_small_v6.pth
+2026-03-11 12:45:49,619 - INFO - app.build.train.v1.load_model_v1 - Model loaded successfully.
+2026-03-11 12:45:49,619 - INFO - app.utils.load_model_version - Initialized Small Model
+2026-03-11 12:47:28,009 - INFO - main - Existing model detected.
+2026-03-11 12:47:28,012 - DEBUG - app.utils.model_version - Current model versions: {'small': 'leaf_detection_model_small_v6.pth', 'medium': 'leaf_detection_model_medium_v1.pth', 'large': 'leaf_detection_model_large_v1.pth'}
+2026-03-11 12:47:28,012 - DEBUG - app.build.train.v1.load_model_v1 - Model path: E:\AIML\PlantDoctor\app\models\v1\leaf_detection_model_small_v6.pth
+2026-03-11 12:47:28,257 - INFO - app.build.train.v1.load_model_v1 - Model loaded successfully.
+2026-03-11 12:47:28,259 - INFO - app.utils.load_model_version - Initialized Small Model
+2026-03-11 12:47:47,404 - INFO - main - Existing model detected.
+2026-03-11 12:47:47,406 - DEBUG - app.utils.model_version - Current model versions: {'small': 'leaf_detection_model_small_v6.pth', 'medium': 'leaf_detection_model_medium_v1.pth', 'large': 'leaf_detection_model_large_v1.pth'}
+2026-03-11 12:47:47,406 - DEBUG - app.build.train.v1.load_model_v1 - Model path: E:\AIML\PlantDoctor\app\models\v1\leaf_detection_model_small_v6.pth
+2026-03-11 12:47:47,655 - INFO - app.build.train.v1.load_model_v1 - Model loaded successfully.
+2026-03-11 12:47:47,655 - INFO - app.utils.load_model_version - Initialized Small Model
+2026-03-11 12:48:27,190 - INFO - main - Existing model detected.
+2026-03-11 12:48:27,190 - DEBUG - app.utils.model_version - Current model versions: {'small': 'leaf_detection_model_small_v6.pth', 'medium': 'leaf_detection_model_medium_v1.pth', 'large': 'leaf_detection_model_large_v1.pth'}
+2026-03-11 12:48:27,190 - DEBUG - app.build.train.v1.load_model_v1 - Model path: E:\AIML\PlantDoctor\app\models\v1\leaf_detection_model_small_v6.pth
+2026-03-11 12:48:27,437 - INFO - app.build.train.v1.load_model_v1 - Model loaded successfully.
+2026-03-11 12:48:27,437 - INFO - app.utils.load_model_version - Initialized Small Model
+2026-03-11 12:48:37,522 - INFO - main - Existing model detected.
+2026-03-11 12:48:37,522 - DEBUG - app.utils.model_version - Current model versions: {'small': 'leaf_detection_model_small_v6.pth', 'medium': 'leaf_detection_model_medium_v1.pth', 'large': 'leaf_detection_model_large_v1.pth'}
+2026-03-11 12:48:37,522 - DEBUG - app.build.train.v1.load_model_v1 - Model path: E:\AIML\PlantDoctor\app\models\v1\leaf_detection_model_small_v6.pth
+2026-03-11 12:48:37,810 - INFO - app.build.train.v1.load_model_v1 - Model loaded successfully.
+2026-03-11 12:48:37,810 - INFO - app.utils.load_model_version - Initialized Small Model
+2026-03-11 12:48:47,410 - INFO - main - Existing model detected.
+2026-03-11 12:48:47,410 - DEBUG - app.utils.model_version - Current model versions: {'small': 'leaf_detection_model_small_v6.pth', 'medium': 'leaf_detection_model_medium_v1.pth', 'large': 'leaf_detection_model_large_v1.pth'}
+2026-03-11 12:48:47,410 - DEBUG - app.build.train.v1.load_model_v1 - Model path: E:\AIML\PlantDoctor\app\models\v1\leaf_detection_model_small_v6.pth
+2026-03-11 12:48:47,652 - INFO - app.build.train.v1.load_model_v1 - Model loaded successfully.
+2026-03-11 12:48:47,652 - INFO - app.utils.load_model_version - Initialized Small Model
+2026-03-11 12:49:19,791 - INFO - main - Existing model detected.
+2026-03-11 12:49:19,794 - DEBUG - app.utils.model_version - Current model versions: {'small': 'leaf_detection_model_small_v6.pth', 'medium': 'leaf_detection_model_medium_v1.pth', 'large': 'leaf_detection_model_large_v1.pth'}
+2026-03-11 12:49:19,795 - DEBUG - app.build.train.v1.load_model_v1 - Model path: E:\AIML\PlantDoctor\app\models\v1\leaf_detection_model_small_v6.pth
+2026-03-11 12:49:20,167 - INFO - app.build.train.v1.load_model_v1 - Model loaded successfully.
+2026-03-11 12:49:20,167 - INFO - app.utils.load_model_version - Initialized Small Model
+2026-03-11 12:49:34,898 - INFO - main - Existing model detected.
+2026-03-11 12:49:34,902 - DEBUG - app.utils.model_version - Current model versions: {'small': 'leaf_detection_model_small_v6.pth', 'medium': 'leaf_detection_model_medium_v1.pth', 'large': 'leaf_detection_model_large_v1.pth'}
+2026-03-11 12:49:34,902 - DEBUG - app.build.train.v1.load_model_v1 - Model path: E:\AIML\PlantDoctor\app\models\v1\leaf_detection_model_small_v6.pth
+2026-03-11 12:49:35,232 - INFO - app.build.train.v1.load_model_v1 - Model loaded successfully.
+2026-03-11 12:49:35,233 - INFO - app.utils.load_model_version - Initialized Small Model
+2026-03-11 12:50:32,022 - WARNING - celery.backends.redis - 
 Setting ssl_cert_reqs=CERT_NONE when connecting to redis means that celery will not validate the identity of the redis broker when connecting. This leaves you vulnerable to man in the middle attacks.
 
-2026-03-05 15:27:33,025 - DEBUG - celery.utils.functional - 
-def train_model_task(self, num_epochs):
-    return 1
+2026-03-11 12:53:01,685 - INFO - app.services.dataset_services - Backup completed
+2026-03-11 12:56:14,464 - INFO - main - Existing model detected.
+2026-03-11 12:56:14,464 - DEBUG - app.utils.model_version - Current model versions: {'small': 'leaf_detection_model_small_v6.pth', 'medium': 'leaf_detection_model_medium_v1.pth', 'large': 'leaf_detection_model_large_v1.pth'}
+2026-03-11 12:56:14,464 - DEBUG - app.build.train.v1.load_model_v1 - Model path: E:\AIML\PlantDoctor\app\models\v1\leaf_detection_model_small_v6.pth
+2026-03-11 12:56:14,834 - INFO - app.build.train.v1.load_model_v1 - Model loaded successfully.
+2026-03-11 12:56:14,834 - INFO - app.utils.load_model_version - Initialized Small Model
+2026-03-11 12:57:12,929 - INFO - main - Existing model detected.
+2026-03-11 12:57:12,929 - DEBUG - app.utils.model_version - Current model versions: {'small': 'leaf_detection_model_small_v6.pth', 'medium': 'leaf_detection_model_medium_v1.pth', 'large': 'leaf_detection_model_large_v1.pth'}
+2026-03-11 12:57:12,929 - DEBUG - app.build.train.v1.load_model_v1 - Model path: E:\AIML\PlantDoctor\app\models\v1\leaf_detection_model_small_v6.pth
+2026-03-11 12:57:13,170 - INFO - app.build.train.v1.load_model_v1 - Model loaded successfully.
+2026-03-11 12:57:13,170 - INFO - app.utils.load_model_version - Initialized Small Model
+2026-03-11 12:57:34,177 - INFO - main - Existing model detected.
+2026-03-11 12:57:34,177 - DEBUG - app.utils.model_version - Current model versions: {'small': 'leaf_detection_model_small_v6.pth', 'medium': 'leaf_detection_model_medium_v1.pth', 'large': 'leaf_detection_model_large_v1.pth'}
+2026-03-11 12:57:34,177 - DEBUG - app.build.train.v1.load_model_v1 - Model path: E:\AIML\PlantDoctor\app\models\v1\leaf_detection_model_small_v6.pth
+2026-03-11 12:57:34,494 - INFO - app.build.train.v1.load_model_v1 - Model loaded successfully.
+2026-03-11 12:57:34,494 - INFO - app.utils.load_model_version - Initialized Small Model
+2026-03-11 12:57:43,141 - INFO - main - Existing model detected.
+2026-03-11 12:57:43,141 - DEBUG - app.utils.model_version - Current model versions: {'small': 'leaf_detection_model_small_v6.pth', 'medium': 'leaf_detection_model_medium_v1.pth', 'large': 'leaf_detection_model_large_v1.pth'}
+2026-03-11 12:57:43,141 - DEBUG - app.build.train.v1.load_model_v1 - Model path: E:\AIML\PlantDoctor\app\models\v1\leaf_detection_model_small_v6.pth
+2026-03-11 12:57:43,475 - INFO - app.build.train.v1.load_model_v1 - Model loaded successfully.
+2026-03-11 12:57:43,476 - INFO - app.utils.load_model_version - Initialized Small Model
+2026-03-11 12:58:05,756 - INFO - app.services.dataset_services - Backup completed
+2026-03-11 12:58:21,381 - INFO - app.services.dataset_services - Backup completed
+2026-03-11 12:59:04,252 - INFO - main - Existing model detected.
+2026-03-11 12:59:04,252 - DEBUG - app.utils.model_version - Current model versions: {'small': 'leaf_detection_model_small_v6.pth', 'medium': 'leaf_detection_model_medium_v1.pth', 'large': 'leaf_detection_model_large_v1.pth'}
+2026-03-11 12:59:04,252 - DEBUG - app.build.train.v1.load_model_v1 - Model path: E:\AIML\PlantDoctor\app\models\v1\leaf_detection_model_small_v6.pth
+2026-03-11 12:59:04,609 - INFO - app.build.train.v1.load_model_v1 - Model loaded successfully.
+2026-03-11 12:59:04,609 - INFO - app.utils.load_model_version - Initialized Small Model
+2026-03-11 12:59:19,628 - INFO - app.services.dataset_services - Backup completed
+2026-03-11 13:00:24,373 - INFO - main - Existing model detected.
+2026-03-11 13:00:24,373 - DEBUG - app.utils.model_version - Current model versions: {'small': 'leaf_detection_model_small_v6.pth', 'medium': 'leaf_detection_model_medium_v1.pth', 'large': 'leaf_detection_model_large_v1.pth'}
+2026-03-11 13:00:24,373 - DEBUG - app.build.train.v1.load_model_v1 - Model path: E:\AIML\PlantDoctor\app\models\v1\leaf_detection_model_small_v6.pth
+2026-03-11 13:00:24,630 - INFO - app.build.train.v1.load_model_v1 - Model loaded successfully.
+2026-03-11 13:00:24,630 - INFO - app.utils.load_model_version - Initialized Small Model
+2026-03-11 13:00:35,778 - INFO - app.services.dataset_services - Backup completed
+2026-03-11 14:05:05,601 - INFO - main - Existing model detected.
+2026-03-11 14:05:05,601 - DEBUG - app.utils.model_version - Current model versions: {'small': 'leaf_detection_model_small_v6.pth', 'medium': 'leaf_detection_model_medium_v1.pth', 'large': 'leaf_detection_model_large_v1.pth'}
+2026-03-11 14:05:05,601 - DEBUG - app.build.train.v1.load_model_v1 - Model path: E:\AIML\PlantDoctor\app\models\v1\leaf_detection_model_small_v6.pth
+2026-03-11 14:05:06,295 - INFO - app.build.train.v1.load_model_v1 - Model loaded successfully.
+2026-03-11 14:05:06,295 - INFO - app.utils.load_model_version - Initialized Small Model
+2026-03-11 14:06:02,114 - INFO - app.services.dataset_services - Backup completed
+2026-03-11 14:06:48,375 - INFO - main - Existing model detected.
+2026-03-11 14:06:48,377 - DEBUG - app.utils.model_version - Current model versions: {'small': 'leaf_detection_model_small_v6.pth', 'medium': 'leaf_detection_model_medium_v1.pth', 'large': 'leaf_detection_model_large_v1.pth'}
+2026-03-11 14:06:48,377 - DEBUG - app.build.train.v1.load_model_v1 - Model path: E:\AIML\PlantDoctor\app\models\v1\leaf_detection_model_small_v6.pth
+2026-03-11 14:06:48,833 - INFO - app.build.train.v1.load_model_v1 - Model loaded successfully.
+2026-03-11 14:06:48,833 - INFO - app.utils.load_model_version - Initialized Small Model
+2026-03-11 14:07:15,331 - INFO - app.services.dataset_services - Backup completed
+2026-03-11 14:08:11,191 - INFO - app.services.dataset_services - Backup completed
+2026-03-11 14:12:13,950 - INFO - main - Existing model detected.
+2026-03-11 14:12:13,950 - DEBUG - app.utils.model_version - Current model versions: {'small': 'leaf_detection_model_small_v6.pth', 'medium': 'leaf_detection_model_medium_v1.pth', 'large': 'leaf_detection_model_large_v1.pth'}
+2026-03-11 14:12:13,956 - DEBUG - app.build.train.v1.load_model_v1 - Model path: E:\AIML\PlantDoctor\app\models\v1\leaf_detection_model_small_v6.pth
+2026-03-11 14:12:14,406 - INFO - app.build.train.v1.load_model_v1 - Model loaded successfully.
+2026-03-11 14:12:14,406 - INFO - app.utils.load_model_version - Initialized Small Model
+2026-03-11 14:12:29,961 - WARNING - app.services.dataset_services - Database not found
+2026-03-11 14:15:04,371 - INFO - main - Existing model detected.
+2026-03-11 14:15:04,387 - DEBUG - app.utils.model_version - Current model versions: {'small': 'leaf_detection_model_small_v6.pth', 'medium': 'leaf_detection_model_medium_v1.pth', 'large': 'leaf_detection_model_large_v1.pth'}
+2026-03-11 14:15:04,387 - DEBUG - app.build.train.v1.load_model_v1 - Model path: E:\AIML\PlantDoctor\app\models\v1\leaf_detection_model_small_v6.pth
+2026-03-11 14:15:04,850 - INFO - app.build.train.v1.load_model_v1 - Model loaded successfully.
+2026-03-11 14:15:04,850 - INFO - app.utils.load_model_version - Initialized Small Model
+2026-03-11 14:15:38,358 - INFO - main - Existing model detected.
+2026-03-11 14:15:38,358 - DEBUG - app.utils.model_version - Current model versions: {'small': 'leaf_detection_model_small_v6.pth', 'medium': 'leaf_detection_model_medium_v1.pth', 'large': 'leaf_detection_model_large_v1.pth'}
+2026-03-11 14:15:38,358 - DEBUG - app.build.train.v1.load_model_v1 - Model path: E:\AIML\PlantDoctor\app\models\v1\leaf_detection_model_small_v6.pth
+2026-03-11 14:15:38,821 - INFO - app.build.train.v1.load_model_v1 - Model loaded successfully.
+2026-03-11 14:15:38,823 - INFO - app.utils.load_model_version - Initialized Small Model
+2026-03-11 14:16:15,327 - INFO - main - Existing model detected.
+2026-03-11 14:16:15,327 - DEBUG - app.utils.model_version - Current model versions: {'small': 'leaf_detection_model_small_v6.pth', 'medium': 'leaf_detection_model_medium_v1.pth', 'large': 'leaf_detection_model_large_v1.pth'}
+2026-03-11 14:16:15,327 - DEBUG - app.build.train.v1.load_model_v1 - Model path: E:\AIML\PlantDoctor\app\models\v1\leaf_detection_model_small_v6.pth
+2026-03-11 14:16:15,777 - INFO - app.build.train.v1.load_model_v1 - Model loaded successfully.
+2026-03-11 14:16:15,778 - INFO - app.utils.load_model_version - Initialized Small Model
+2026-03-11 14:17:29,652 - INFO - main - Existing model detected.
+2026-03-11 14:17:29,652 - DEBUG - app.utils.model_version - Current model versions: {'small': 'leaf_detection_model_small_v6.pth', 'medium': 'leaf_detection_model_medium_v1.pth', 'large': 'leaf_detection_model_large_v1.pth'}
+2026-03-11 14:17:29,652 - DEBUG - app.build.train.v1.load_model_v1 - Model path: E:\AIML\PlantDoctor\app\models\v1\leaf_detection_model_small_v6.pth
+2026-03-11 14:17:30,225 - INFO - app.build.train.v1.load_model_v1 - Model loaded successfully.
+2026-03-11 14:17:30,225 - INFO - app.utils.load_model_version - Initialized Small Model
+2026-03-11 14:17:45,550 - INFO - main - Existing model detected.
+2026-03-11 14:17:45,550 - DEBUG - app.utils.model_version - Current model versions: {'small': 'leaf_detection_model_small_v6.pth', 'medium': 'leaf_detection_model_medium_v1.pth', 'large': 'leaf_detection_model_large_v1.pth'}
+2026-03-11 14:17:45,550 - DEBUG - app.build.train.v1.load_model_v1 - Model path: E:\AIML\PlantDoctor\app\models\v1\leaf_detection_model_small_v6.pth
+2026-03-11 14:17:46,046 - INFO - app.build.train.v1.load_model_v1 - Model loaded successfully.
+2026-03-11 14:17:46,048 - INFO - app.utils.load_model_version - Initialized Small Model
+2026-03-11 14:18:10,710 - INFO - main - Existing model detected.
+2026-03-11 14:18:10,710 - DEBUG - app.utils.model_version - Current model versions: {'small': 'leaf_detection_model_small_v6.pth', 'medium': 'leaf_detection_model_medium_v1.pth', 'large': 'leaf_detection_model_large_v1.pth'}
+2026-03-11 14:18:10,710 - DEBUG - app.build.train.v1.load_model_v1 - Model path: E:\AIML\PlantDoctor\app\models\v1\leaf_detection_model_small_v6.pth
+2026-03-11 14:18:11,113 - INFO - app.build.train.v1.load_model_v1 - Model loaded successfully.
+2026-03-11 14:18:11,113 - INFO - app.utils.load_model_version - Initialized Small Model
+2026-03-11 14:18:52,117 - INFO - main - Existing model detected.
+2026-03-11 14:18:52,122 - DEBUG - app.utils.model_version - Current model versions: {'small': 'leaf_detection_model_small_v6.pth', 'medium': 'leaf_detection_model_medium_v1.pth', 'large': 'leaf_detection_model_large_v1.pth'}
+2026-03-11 14:18:52,122 - DEBUG - app.build.train.v1.load_model_v1 - Model path: E:\AIML\PlantDoctor\app\models\v1\leaf_detection_model_small_v6.pth
+2026-03-11 14:18:52,597 - INFO - app.build.train.v1.load_model_v1 - Model loaded successfully.
+2026-03-11 14:18:52,597 - INFO - app.utils.load_model_version - Initialized Small Model
+2026-03-11 14:19:20,212 - INFO - main - Existing model detected.
+2026-03-11 14:19:20,212 - DEBUG - app.utils.model_version - Current model versions: {'small': 'leaf_detection_model_small_v6.pth', 'medium': 'leaf_detection_model_medium_v1.pth', 'large': 'leaf_detection_model_large_v1.pth'}
+2026-03-11 14:19:20,212 - DEBUG - app.build.train.v1.load_model_v1 - Model path: E:\AIML\PlantDoctor\app\models\v1\leaf_detection_model_small_v6.pth
+2026-03-11 14:19:20,707 - INFO - app.build.train.v1.load_model_v1 - Model loaded successfully.
+2026-03-11 14:19:20,709 - INFO - app.utils.load_model_version - Initialized Small Model
+2026-03-11 14:19:27,735 - DEBUG - app.routers.v2.database_router - Restore method activated
+2026-03-11 14:20:14,831 - INFO - main - Existing model detected.
+2026-03-11 14:20:14,833 - DEBUG - app.utils.model_version - Current model versions: {'small': 'leaf_detection_model_small_v6.pth', 'medium': 'leaf_detection_model_medium_v1.pth', 'large': 'leaf_detection_model_large_v1.pth'}
+2026-03-11 14:20:14,835 - DEBUG - app.build.train.v1.load_model_v1 - Model path: E:\AIML\PlantDoctor\app\models\v1\leaf_detection_model_small_v6.pth
+2026-03-11 14:20:15,260 - INFO - app.build.train.v1.load_model_v1 - Model loaded successfully.
+2026-03-11 14:20:15,260 - INFO - app.utils.load_model_version - Initialized Small Model
+2026-03-11 14:20:15,277 - DEBUG - app.routers.v2.database_router - Restore method activated
+2026-03-11 14:22:49,195 - INFO - main - Existing model detected.
+2026-03-11 14:22:49,202 - DEBUG - app.utils.model_version - Current model versions: {'small': 'leaf_detection_model_small_v6.pth', 'medium': 'leaf_detection_model_medium_v1.pth', 'large': 'leaf_detection_model_large_v1.pth'}
+2026-03-11 14:22:49,202 - DEBUG - app.build.train.v1.load_model_v1 - Model path: E:\AIML\PlantDoctor\app\models\v1\leaf_detection_model_small_v6.pth
+2026-03-11 14:22:49,593 - INFO - app.build.train.v1.load_model_v1 - Model loaded successfully.
+2026-03-11 14:22:49,593 - INFO - app.utils.load_model_version - Initialized Small Model
+2026-03-11 14:23:52,259 - INFO - main - Existing model detected.
+2026-03-11 14:23:52,259 - DEBUG - app.utils.model_version - Current model versions: {'small': 'leaf_detection_model_small_v6.pth', 'medium': 'leaf_detection_model_medium_v1.pth', 'large': 'leaf_detection_model_large_v1.pth'}
+2026-03-11 14:23:52,259 - DEBUG - app.build.train.v1.load_model_v1 - Model path: E:\AIML\PlantDoctor\app\models\v1\leaf_detection_model_small_v6.pth
+2026-03-11 14:23:52,687 - INFO - app.build.train.v1.load_model_v1 - Model loaded successfully.
+2026-03-11 14:23:52,687 - INFO - app.utils.load_model_version - Initialized Small Model
+2026-03-11 14:26:03,083 - DEBUG - app.routers.v2.database_router - Restore method activated
+2026-03-11 14:28:57,465 - DEBUG - app.routers.v2.database_router - Restore method activated
+2026-03-11 14:31:41,387 - WARNING - celery.backends.redis - 
+Setting ssl_cert_reqs=CERT_NONE when connecting to redis means that celery will not validate the identity of the redis broker when connecting. This leaves you vulnerable to man in the middle attacks.
 
-2026-03-05 15:36:04,221 - DEBUG - celery.utils.functional - 
-def predict_leaf_task(self, path):
-    return 1
-
+2026-03-11 14:46:49,795 - INFO - app.services.dataset_services - Backup completed
+2026-03-11 14:56:51,785 - DEBUG - app.routers.v2.database_router - Restore method activated
+2026-03-11 14:56:51,789 - WARNING - app.services.dataset_services - Database not found
+2026-03-11 14:58:32,749 - DEBUG - app.routers.v2.database_router - Restore method activated
+2026-03-11 15:02:35,554 - DEBUG - app.routers.v2.database_router - Restore method activated
+2026-03-11 15:03:24,519 - DEBUG - app.routers.v2.database_router - Restore method activated
+2026-03-11 15:07:30,391 - DEBUG - app.routers.v2.database_router - Restore method activated
+2026-03-11 15:07:52,459 - INFO - app.services.dataset_services - Database restored successfully
+2026-03-11 15:08:54,477 - DEBUG - app.routers.v2.database_router - Restore method activated
+2026-03-11 15:08:57,191 - INFO - app.services.dataset_services - Database restored successfully
+2026-03-11 15:09:12,244 - DEBUG - app.routers.v2.database_router - Restore method activated
+2026-03-11 15:09:34,979 - INFO - app.services.dataset_services - Database restored successfully
+2026-03-11 15:10:22,519 - DEBUG - app.routers.v2.database_router - Restore method activated
+2026-03-11 15:10:24,372 - INFO - app.services.dataset_services - Database restored successfully
+2026-03-11 15:10:36,287 - DEBUG - app.routers.v2.database_router - Restore method activated
+2026-03-11 15:10:37,992 - INFO - app.services.dataset_services - Database restored successfully
+2026-03-11 15:11:09,089 - DEBUG - app.services.dataset_services - Backup dataset: Bd1 deleted successfully.
+2026-03-11 15:59:10,139 - DEBUG - app.routers.v2.database_router - Restore method activated
+2026-03-11 15:59:14,149 - INFO - app.services.dataset_services - Database restored successfully

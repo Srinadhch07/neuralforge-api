@@ -2,7 +2,7 @@ from torchvision import datasets, transforms
 from pathlib import Path
 import os
 
-BASE_DIR = os.path.abspath(os.path.join(os.path.dirname(__file__), ".."))
+BASE_DIR = os.path.abspath(os.path.join(os.path.dirname(__file__), "..", ".."))
 DATA_DIR = os.path.join(BASE_DIR, "datasets")
 
 TRAIN_DIR = os.path.join(DATA_DIR, "train")

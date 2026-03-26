@@ -9,10 +9,10 @@ from pathlib import Path
 from app.config.celery_app import celery
 from app.tasks.dl_tasks import upload_dataset_task, train_model_task
 from app.documentation import train_routes_documentation
-
+from app.schemas.v1.train_schema import TrainModel
 logger = logging.getLogger(__name__)
 
-router = APIRouter(prefix="/dataset", tags=["Building the model"])
+router = APIRouter(prefix="/v1/dataset")
 
 @router.post("/upload", name ="upload_dataset", summary="Train model", description=train_routes_documentation.upload_dataset,  status_code=202 )
 async def upload_dataset(file: UploadFile = File(...)):
@@ -28,10 +28,14 @@ async def upload_dataset(file: UploadFile = File(...)):
     return { "status": True, "message": "Uplaoding dataset", "data": { "taskId": task.id, "status": "processing" }}
 
 @router.post('/train', name="Train model", summary="Trains the model", description="")
-async def train_model(epochs:int):
-    if epochs < 1:
+async def train_model(payload: TrainModel):
+    if payload.epochs < 1:
         raise HTTPException(404,"Epochs cannot be less than 1")
-    task = train_model_task.delay(epochs)
+    task_payload = {
+        "epochs": payload.epochs,
+        "model": payload.model,
+    }
+    task = train_model_task.delay(task_payload)
     return { "status": True, "message": "Retraining  deep learning model", "data": { "taskId": task.id, "status": "processing" }}
 
 

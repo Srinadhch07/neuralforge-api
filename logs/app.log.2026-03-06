@@ -1,0 +1,4 @@
+2026-03-06 14:08:32,457 - DEBUG - app.utils.model_version - leaf_detection_model_v1.pth
+2026-03-06 14:08:32,457 - DEBUG - app.build.load_model_v1 - Model path: E:\AIML\PlantDoctor\app\models\leaf_detection_model_v1.pth
+2026-03-06 14:08:32,858 - INFO - app.build.load_model_v1 - Model loaded successfully.
+2026-03-06 14:08:33,294 - INFO - app.utils.model_version - Existing model detected.

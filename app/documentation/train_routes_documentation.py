@@ -1,27 +1,28 @@
 upload_dataset = """
-Upload a leaf image and get predicted plant species and disease with confidence score.
+Upload a dataset ZIP file to train a plant disease model.
 
+## API Usage
 
-    #API USAGE:
+### 1. File Naming Convention
+Upload a ZIP file using the format:
 
-    Input instruction:
+plant__disease.zip
 
-    1. Upload zip file only with name of plant & disease in extact follwing naming convention
+Example:
+- **plant** -> plant name
+- **disease** -> disease name
+---
+### 2. ZIP file structure
 
-        ex: mango_rust.zip
+The ZIP must contain following folder structure:
 
-        explanation: left part of filename will indicate the plant name and right part will indicate the disease.
+    plant__disease/
+    train/
+    test/
 
-    2. The uploading ZIP file must contain the following folder structure:
-        
-            filename/
-                train/
-                test/
+Example:
 
-        example:
-
-            mango_rust/
-                train/
-                test/
-
+    mango__rust/
+        train/  
+        test/
 """
