@@ -300,7 +300,7 @@ MIT © [Srinadh](https://github.com/srinadhch07)
 ## 👤 Author
 
 **Srinadh** — AIML Engineer  
-📝 [Medium](https://medium.com/@srinadhch07) | 💼 [LinkedIn](https://linkedin.com/in/yourprofile) | 🐙 [GitHub](https://github.com/srinadhch07)
+📝 [Medium](https://medium.com/@srinadhch07) | 💼 [LinkedIn]([https://linkedin.com/in/](https://www.linkedin.com/in/srinadhch07/)) | 🐙 [GitHub](https://github.com/srinadhch07)
 
 ---
 
